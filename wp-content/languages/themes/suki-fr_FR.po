@@ -1,0 +1,2905 @@
+# Translation of Themes - Suki in French (France)
+# This file is distributed under the same license as the Themes - Suki package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-18 12:08:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Suki\n"
+
+#. Description of the theme
+msgid "Suki is a free multi-purpose WordPress theme that is lightweight, fast, highly customizable, and flexible. Build any kind of websites, blog, business, portfolio, WooCommerce storefronts, and also niche websites like Spa, Restaurant, Wedding, Non Profit, Education, Hotel, etc. Fully compatible with Gutenberg, Elementor, Brizy, Visual Composer, Beaver Builder, Divi, SiteOrigin, and other page builders. Tons of design options for customizing typography, colors, layout, and also free built-in Header and Footer builder. Built with SEO in mind, Suki is incredibly fast, mobile optimized, 100% HTML valid, and integrated with Schema.org structured data. Furthermore, Suki supports accessibility, multi-language translation, and RTL languages. Learn more about the full features and also \"one click demo import\" feature at https://sukiwp.com/."
+msgstr "Suki est un thème WordPress multifonctionnel léger, rapide, hautement personnalisable et flexible. Construisez n’importe quel type de site web, blog, business, portfolio, vitrine WooCommerce, et aussi des sites de niche comme des spas, restaurants, mariage, non-marchands, éducation, hôtels, etc... Entièrement compatible avec Gutenberg, Elementor, Brizy, Visual Composer, Beaver Builder, Divi, SiteOrigin et autres constructeurs de pages. Des tonnes d’options de conception pour personnaliser la typographie, les couleurs, la mise en page, ainsi qu’un constructeur d’en-tête et de pied de page intégré gratuit. Conçu pour le référencement, Suki est incroyablement rapide, optimisé pour les mobiles, 100% compatible HTML et intégré aux données structurées de Schema.org. De plus, Suki prend en charge l’accessibilité, la traduction multilingue et les langues RTL. Pour en savoir plus sur l’ensemble des fonctionnalités et sur la fonction « Importation de démo en un clic », rendez-vous sur le site https://sukiwp.com/."
+
+#. Theme Name of the theme
+msgid "Suki"
+msgstr "Suki"
+
+#: template-parts/scroll-to-top.php:14
+msgid "Back to Top"
+msgstr "Retour vers le haut"
+
+#: inc/widgets/class-suki-widget-social.php:97
+msgid "Open links in new tab"
+msgstr "Ouvrir les liens dans un nouvel onglet"
+
+#: inc/widgets/class-suki-widget-social.php:81
+msgid "Social links to display:"
+msgstr "Liens sociaux à afficher :"
+
+#. translators: %s: theme name.
+#: inc/widgets/class-suki-widget-social.php:14
+msgid "%s - Social Links"
+msgstr "%s - Liens sociaux"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:42
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:42
+msgid "2 Columns"
+msgstr "2 colonnes"
+
+#: inc/customizer/options/content--section.php:58
+msgid "If you are using Page Builder and want a full width layout, please go to your page editor and set the \"Page Attributes > Template\" to \"Page Builder\" or the one provided by your page builder."
+msgstr "Si vous utilisez un constructeur de page et que vous souhaitez une mise en page pleine largeur, veuillez aller dans votre éditeur de page et réglez « Attributs de page > Modèle » sur « Constructeur de page » ou celui fourni par votre éditeur de page."
+
+#: inc/customizer/options/blog--archive.php:69
+msgid "Edit post layout"
+msgstr "Modifier la mise en page de la publication"
+
+#: inc/customizer/options/blog--entry-default.php:22
+msgid "Items gap"
+msgstr "Écart entre les éléments"
+
+#: inc/customizer/options/blog--entry-default.php:270
+#: inc/customizer/options/blog--entry-grid.php:398
+msgid "Footer meta text"
+msgstr "Format de méta du pied de page"
+
+#: inc/customizer/options/blog--entry-default.php:206
+#: inc/customizer/options/blog--entry-grid.php:334
+msgid "Read more text"
+msgstr "Texte lire plus"
+
+#: inc/customizer/options/blog--entry-default.php:192
+#: inc/customizer/options/blog--entry-grid.php:320
+msgid "Text"
+msgstr "Texte"
+
+#: inc/customizer/options/blog--entry-default.php:168
+#: inc/customizer/options/blog--entry-grid.php:296
+msgid "Fill with 0 to disable excerpt."
+msgstr "Saisissez 0 pour désactiver l’extrait."
+
+#: inc/customizer/options/blog--entry-default.php:167
+#: inc/customizer/options/blog--entry-grid.php:295
+msgid "Excerpt words limit"
+msgstr "Limite en mots de l’extrait"
+
+#: inc/customizer/options/blog--entry-default.php:140
+#: inc/customizer/options/blog--entry-grid.php:268
+msgid "Header meta text"
+msgstr "Texte de méta d’en-tête"
+
+#: inc/customizer/options/blog--entry-default.php:78
+#: inc/customizer/options/blog--entry-grid.php:206
+msgid "Ignore padding"
+msgstr "Ignorer la marge interne"
+
+#: inc/customizer/options/blog--entry-grid.php:162
+msgid "Same height items in a row"
+msgstr "Même hauteur des éléments dans une rangée"
+
+#: inc/customizer/options/blog--entry-grid.php:100
+msgid "Item"
+msgstr "Élément"
+
+#: inc/customizer/options/global--social.php:50
+msgctxt "Suki Pro upsell"
+msgid "Add more (custom) social icons"
+msgstr "Ajouter plus d’icônes sociales (personnalisées)"
+
+#: inc/customizer/options/global--social.php:49
+msgctxt "Suki Pro upsell"
+msgid "Replace default social icons with custom icons"
+msgstr "Remplacer les icônes sociales par défaut par des icônes personnalisées"
+
+#: inc/customizer/options/_sections.php:494
+msgctxt "Suki Pro upsell"
+msgid "Post Layout: List"
+msgstr "Mise en page de publication : liste"
+
+#. translators: %s: title syntax.
+#: inc/template-tags.php:1087
+msgid "&laquo; %s"
+msgstr "&laquo; %s"
+
+#. translators: %s: title syntax.
+#: inc/template-tags.php:1085
+msgid "%s &raquo;"
+msgstr "%s &raquo;"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:499
+msgid "If you are using Page Builder and want a full width layout, please set the \"Page Attributes > Template\" to \"Page Builder\" or the one provided by your page builder."
+msgstr "Si vous utilisez un constructeur de page et que vous souhaitez une mise en page pleine largeur, veuillez régler « Attributs de page > Modèle » sur « Constructeur de page » ou celui fourni par votre constructeur de page."
+
+#: template-parts/entry-grid.php:66 template-parts/entry.php:76
+#: inc/customizer/options/blog--entry-default.php:189
+#: inc/customizer/options/blog--entry-default.php:208
+#: inc/customizer/options/blog--entry-grid.php:317
+#: inc/customizer/options/blog--entry-grid.php:336
+msgid "Read more"
+msgstr "Lire plus"
+
+#: inc/customizer/options/blog--entry-default.php:141
+#: inc/customizer/options/blog--entry-grid.php:269
+msgid "Available tags: {{date}}, {{categories}}, {{tags}}, {{author}}, {{avatar}}, {{comments}}."
+msgstr "BAlises disponibles : {{date}}, {{categories}}, {{tags}}, {{author}}, {{avatar}}, {{comments}}."
+
+#: inc/template-tags.php:738 inc/template-tags.php:742
+msgctxt "terms list separator"
+msgid ", "
+msgstr ", "
+
+#: inc/customizer/options/general--base.php:56
+msgid "For better font rendering on OSX browsers (recommended)."
+msgstr "Pour un meilleur rendu des polices sur les navigateurs OSX (recommandé)."
+
+#: inc/customizer/options/_sections.php:296
+msgctxt "Suki Pro upsell"
+msgid "Vertical Header"
+msgstr "En-tête vertical"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:368
+#: inc/admin/class-suki-admin-metabox-page-settings.php:387
+#: inc/admin/class-suki-admin-metabox-page-settings.php:570
+#: inc/admin/class-suki-admin-metabox-page-settings.php:589
+#: inc/admin/class-suki-admin-metabox-page-settings.php:614
+#: inc/admin/class-suki-admin-metabox-page-settings.php:633
+msgid "&#x2714; Yes"
+msgstr "&#x2714; Oui"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:367
+#: inc/admin/class-suki-admin-metabox-page-settings.php:386
+#: inc/admin/class-suki-admin-metabox-page-settings.php:569
+#: inc/admin/class-suki-admin-metabox-page-settings.php:588
+#: inc/admin/class-suki-admin-metabox-page-settings.php:613
+#: inc/admin/class-suki-admin-metabox-page-settings.php:632
+msgid "&#x2718; No"
+msgstr "&#x2718; Non"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:366
+#: inc/admin/class-suki-admin-metabox-page-settings.php:385
+#: inc/admin/class-suki-admin-metabox-page-settings.php:417
+#: inc/admin/class-suki-admin-metabox-page-settings.php:483
+#: inc/admin/class-suki-admin-metabox-page-settings.php:514
+#: inc/admin/class-suki-admin-metabox-page-settings.php:568
+#: inc/admin/class-suki-admin-metabox-page-settings.php:587
+#: inc/admin/class-suki-admin-metabox-page-settings.php:612
+#: inc/admin/class-suki-admin-metabox-page-settings.php:631
+msgid "(Customizer)"
+msgstr "(Outil de personnalisation)"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:358
+msgid "Disable desktop header"
+msgstr "Désactiver l’en-tête bureau"
+
+#: inc/admin/class-suki-admin.php:841
+msgid "Install & Activate Plugin"
+msgstr "Installer et activer l’extension"
+
+#: inc/admin/class-suki-admin.php:839
+msgid "Browse Demo Sites"
+msgstr "Parcourir les sites démo"
+
+#: inc/admin/class-suki-admin.php:836
+msgid "Kickstart your website with our pre-made demo websites in 3 steps: Import. Modify. Launch!"
+msgstr "Démarrez au plus vite votre site web avec nos sites de démo préfabriqués en 3 étapes : Importer. Modifier. Lancer !"
+
+#: inc/admin/class-suki-admin.php:833
+msgid "One Click Demo Import"
+msgstr "Importation de démo en un clic"
+
+#: inc/admin/class-suki-admin.php:812
+msgid "Other Links"
+msgstr "Autres liens"
+
+#: inc/admin/class-suki-admin.php:798
+msgid "Follow Us on Facebook"
+msgstr "Suivez-nous sur Facebook"
+
+#: inc/admin/class-suki-admin.php:792
+msgid "Users Community Group"
+msgstr "Groupe communautaire d’utilisateurs"
+
+#: inc/admin/class-suki-admin.php:780
+msgid "Suki Website"
+msgstr "Site web de Suki"
+
+#: inc/admin/class-suki-admin.php:750
+msgid "Pro"
+msgstr "Pro"
+
+#: inc/admin/class-suki-admin.php:732
+msgid "WooCommerce is not installed"
+msgstr "WooCommerce n’est pas installé"
+
+#: inc/admin/class-suki-admin.php:721
+msgid "Available on Suki Pro"
+msgstr "Disponible sur Suki Pro"
+
+#: inc/admin/class-suki-admin.php:698
+msgid "Modules Manager"
+msgstr "Gestionnaire de modules"
+
+#: inc/admin/class-suki-admin.php:186
+msgid "Suki Dashboard"
+msgstr "Tableau de bord Suki"
+
+#: inc/admin/class-suki-admin.php:185
+msgid "Thank you for installing Suki! Please visit the theme dashboard for more info about Suki features."
+msgstr "Merci d’avoir installé Suki ! Veuillez visiter le tableau de bord du thème pour plus d’info sur les fonctionnalités de Suki."
+
+#: inc/admin/class-suki-admin.php:164
+msgid "Redirecting to demo list..."
+msgstr "Rediriger vers la liste des démos...."
+
+#: inc/admin/class-suki-admin.php:163
+msgid "Error occured while installing the plugin"
+msgstr "Erreur survenue lors de l’installation de l’extension"
+
+#: inc/admin/class-suki-admin.php:162
+msgid "Installing..."
+msgstr "Installation..."
+
+#. translators: %s: color number.
+#. translators: %s: color index.
+#: inc/customizer/options/global--color-palette.php:31 inc/class-suki.php:280
+msgid "Color %s"
+msgstr "Couleur %s"
+
+#: inc/customizer/options/global--color-palette.php:69
+msgid "Enabling this would replace the original Gutenberg's color palette with the colors you defined above."
+msgstr "Activer cela remplacerait la palette de couleurs d’origine de Gutenberg par les couleurs que vous avez définies ci-dessus."
+
+#: inc/customizer/options/global--color-palette.php:68
+msgid "Use as Gutenberg color palette"
+msgstr "Utiliser comme palette de couleurs Gutenberg"
+
+#: inc/customizer/options/global--color-palette.php:55
+msgid "Gutenberg Integration"
+msgstr "Intégration Gutenberg"
+
+#: inc/customizer/options/global--color-palette.php:41
+msgid "After changing colors, publish the changes and then reload this Customizer page to apply them on all color controls."
+msgstr "Après modification des couleurs, publiez les modifications, puis rechargez cette page de l’outil de personnalisation pour les appliquer à tous les contrôles de couleurs."
+
+#: inc/customizer/options/general--form-inputs.php:101
+msgid "Input typography"
+msgstr "Typographie des entrées"
+
+#: inc/customizer/options/page-header.php:308
+msgid "Post / page title text color"
+msgstr "Couleur du texte du titre de la publication/page"
+
+#: inc/customizer/options/page-header.php:254
+msgid "Post / page title typography"
+msgstr "Typographie du titre de la publication/page"
+
+#: inc/customizer/options/page-header.php:113
+msgid "SEOPress (pro version)"
+msgstr "SEOPress (version pro)"
+
+#: inc/customizer/options/page-header.php:112
+msgid "Rank Math"
+msgstr "Rank Math"
+
+#: inc/customizer/options/page-header.php:110
+msgid "To enable breadcrumb feature, you need to install one of the following plugins and enable the breadcrumb feature on the plugin's settings page."
+msgstr "Pour activer la fonctionnalité de fil d’Ariane, vous devez installer une des extensions suivantes et activer la fonctionnalité de fil d’Ariane sur la page des réglages de l’extension."
+
+#. translators: %s: link to Dynamic Page Settings.
+#: inc/customizer/options/page-header.php:94
+msgid "Show the title of current page, whether it's a static page, a single post page, or an archive page. You can change the title text format for search results and archive pages via %s."
+msgstr "Afficher le titre de la page courante, qu’il s’agisse d’une page statique, d’une page de publication unique ou d’une page d’archive. Vous pouvez modifier le format du texte du titre pour les résultats de recherche et les pages d’archive via %s."
+
+#: inc/customizer/options/page-header.php:76
+#: inc/customizer/options/page-header.php:109
+msgid "Breadcrumb"
+msgstr "Fil d’Ariane"
+
+#: inc/customizer/options/page-header.php:75
+#: inc/customizer/options/page-header.php:91
+msgid "Post / Page Title"
+msgstr "Titre de l’article/page"
+
+#: inc/customizer/options/page-header.php:54
+msgid "Elements"
+msgstr "Éléments"
+
+#: inc/customizer/options/page-settings.php:416
+msgctxt "Suki Pro upsell"
+msgid "Enable Preloader Screen on this page"
+msgstr "Activer l’écran de préchargement sur cette page"
+
+#: inc/customizer/options/page-settings.php:415
+msgctxt "Suki Pro upsell"
+msgid "Enable Sticky Header on this page"
+msgstr "Activer l’en-tête épinglé sur cette page"
+
+#: inc/customizer/options/page-settings.php:297
+msgid "Available tags: {{taxonomy}}, {{term}}."
+msgstr "Balises disponibles : {{taxonomy}}, {{term}}."
+
+#: inc/customizer/options/page-settings.php:296
+msgid "Title text on taxonomy archive page"
+msgstr "Texte du titre sur la page d’archive de la taxonomie"
+
+#: inc/customizer/options/page-settings.php:280
+msgid "Available tags: {{post_type}}."
+msgstr "Balises disponibles : {{post_type}}."
+
+#. translators: %s: post type plural name.
+#: inc/customizer/options/page-settings.php:277
+msgid "Title text on %s archive page"
+msgstr "Texte du titre sur la page d’archive %s"
+
+#: inc/customizer/options/page-settings.php:259
+msgid "Search Results for: {{keyword}}."
+msgstr "Résultats de recherche pour : {{keyword}}."
+
+#: inc/customizer/options/page-settings.php:257
+msgid "Available tags: {{keyword}}."
+msgstr "Balises disponibles : {{keyword}}."
+
+#: inc/customizer/options/page-settings.php:238
+#: inc/customizer/options/page-settings.php:256
+msgid "Title text"
+msgstr "Texte du titre"
+
+#: inc/customizer/options/page-settings.php:213
+#: inc/admin/class-suki-admin-metabox-page-settings.php:419
+msgid "&#x2714; Enabled"
+msgstr "&#x2714; Activé"
+
+#: inc/customizer/options/page-settings.php:212
+#: inc/admin/class-suki-admin-metabox-page-settings.php:418
+msgid "&#x2718; Disabled"
+msgstr "&#x2718; Désactivé"
+
+#: inc/customizer/options/page-settings.php:59
+#: inc/customizer/options/page-settings.php:86
+#: inc/customizer/options/page-settings.php:211
+#: inc/customizer/options/page-settings.php:338
+msgid "(Default)"
+msgstr "(par défaut)"
+
+#: inc/customizer/options/general--base.php:55
+msgid "Enable font smoothing"
+msgstr "Activer le lissage des polices"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:50
+msgid "Center (only for Full Screen)"
+msgstr "Centre (uniquement pour le plein écran)"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:31
+msgid "Full screen"
+msgstr "Plein écran"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:30
+msgid "Drawer (slide in popup)"
+msgstr "Tiroir (glisser dans la fenêtre surgissante)"
+
+#: inc/customizer/options/content--section.php:77
+#: inc/customizer/options/page-settings.php:94
+#: inc/admin/class-suki-admin-metabox-page-settings.php:522
+msgid "Narrow"
+msgstr "Étroit"
+
+#: inc/customizer/options/content--section.php:73
+#: inc/customizer/options/page-settings.php:90
+#: inc/admin/class-suki-admin-metabox-page-settings.php:518
+msgid "Wide"
+msgstr "Large"
+
+#. translators: %1$s: section name, %2$s: link to Dynamic Page Settings.
+#: inc/customizer/options/content--section.php:25
+#: inc/customizer/options/page-header.php:25
+msgid "You can set different %1$s setting on each page using the %2$s."
+msgstr "Vous pouvez définir différents réglages %1$s sur chaque page en utilisant le %2$s."
+
+#: inc/customizer/options/footer--widgets-bar.php:39
+#: inc/customizer/options/header--top-main-bottom-bar.php:84
+#: inc/customizer/options/footer--bottom-bar.php:77
+msgid "Contained"
+msgstr "Contenu"
+
+#: inc/customizer/options/header--search.php:92
+msgctxt "Suki Pro upsell"
+msgid "WooCommerce Products Search"
+msgstr "Recherche de produits WooCommerce"
+
+#: inc/customizer/options/general--line-subtle.php:37
+msgid "Used as background color of &lt;code&gt;, &lt;pre&gt;, tagclouds, and archive title. Usually slightly darker or lighter than the page background color."
+msgstr "Utilisé comme couleur darrière-plan pour &lt;code&gt;, &lt;pre&gt;, les nuages d’étiquettes et le titre des archives. Habituellement légèrement plus foncé ou plus clair que la couleur d’arrière-plan de la page."
+
+#: inc/customizer/options/general--line-subtle.php:36
+msgid "Subtle background color"
+msgstr "Couleur d’arrière-plan du sous-titre"
+
+#: inc/customizer/options/general--line-subtle.php:23
+msgid "Used on &lt;hr&gt; and default border color of all elements."
+msgstr "Utilisé sur &lt;hr&gt; et la couleur de bordure par défaut de tous les éléments."
+
+#: inc/customizer/options/footer--scroll-to-top.php:137
+msgid "Vertical offset"
+msgstr "Décalage vertical"
+
+#: inc/customizer/options/footer--scroll-to-top.php:109
+msgid "Horizontal offset"
+msgstr "Décalage horizontal"
+
+#: inc/customizer/options/footer--scroll-to-top.php:69
+msgid "Sticky"
+msgstr "Épinglé"
+
+#: inc/customizer/options/footer--scroll-to-top.php:68
+msgid "Static"
+msgstr "Statique"
+
+#: inc/customizer/options/footer--scroll-to-top.php:66
+msgid "Static: displayed at the very bottom of the page. Sticky: visible as user scrolls down through the page."
+msgstr "Statique : affiché tout en bas de la page. Épinglé : visible lorsque l’utilisateur fait défiler la page vers le bas."
+
+#: inc/customizer/options/footer--scroll-to-top.php:65
+#: inc/customizer/options/header--mobile-vertical-bar.php:28
+msgid "Display"
+msgstr "Affichage"
+
+#: inc/customizer/options/footer--scroll-to-top.php:50
+msgid "Mobile"
+msgstr "Mobile"
+
+#: inc/customizer/options/footer--scroll-to-top.php:49
+msgid "Tablet"
+msgstr "Tablette"
+
+#: inc/customizer/options/footer--scroll-to-top.php:46
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: inc/customizer/options/footer--scroll-to-top.php:27
+msgid "Enable \"Scroll to Top\" button"
+msgstr "Activer le bouton « Défiler vers le haut »"
+
+#: inc/customizer/options/_sections.php:509
+msgid "You can set different layout settings (like Header, Page Header, Content, Sidebar, and Footer) on each different page type."
+msgstr "Vous pouvez définir différents réglages de mise en page (comme en-tête, en-tête de page, contenu, colonne latérale et pied de page) sur chaque type de page différent."
+
+#: inc/customizer/options/_sections.php:493
+msgctxt "Suki Pro upsell"
+msgid "Featured Posts"
+msgstr "Publications mises en avant"
+
+#: inc/customizer/options/_sections.php:492
+msgctxt "Suki Pro upsell"
+msgid "Related Posts"
+msgstr "Publications similaires"
+
+#: inc/customizer/options/_sections.php:427
+msgctxt "Suki Pro upsell"
+msgid "Dynamic & Responsive Widgets Column Width"
+msgstr "Largeur de colonne des widgets dynamique et responsive"
+
+#: inc/customizer/options/_sections.php:409
+msgid "Scroll To Top"
+msgstr "Défiler vers le haut"
+
+#: inc/customizer/options/_sections.php:309
+msgid "Page Header is a section located between Header and Content section and used to display the title of current page."
+msgstr "L’en-tête de page est une section située entre l’en-tête et la section de contenu, utilisée pour afficher le titre de la page en cours."
+
+#: template-parts/page-header.php:24 inc/customizer/options/page-header.php:26
+#: inc/customizer/options/_sections.php:308
+#: inc/customizer/options/page-settings.php:195
+#: inc/admin/class-suki-admin-metabox-page-settings.php:67
+msgid "Page Header"
+msgstr "En-tête de page"
+
+#: inc/customizer/options/_sections.php:97
+msgid "Link"
+msgstr "Lien"
+
+#: inc/customizer/options/_sections.php:90
+msgid "Border & Subtle Background"
+msgstr "Bordure et arrière-plan de sous-titre"
+
+#: inc/customizer/options/_sections.php:76
+msgid "General Styles"
+msgstr "Styles généraux"
+
+#: inc/customizer/options/_sections.php:48
+msgid "Color palette makes it easier and faster to choose colors while designing your website."
+msgstr "La palette de couleurs facilite et accélère le choix des couleurs lors de la conception de votre site web."
+
+#: inc/customizer/options/_sections.php:14
+msgctxt "Suki Pro upsell"
+msgid "More Options Available in Suki Pro"
+msgstr "Plus d’options disponibles dans Suki Pro"
+
+#. translators: %s: Post type's singular name.
+#: inc/customizer/class-suki-customizer.php:624
+msgid "TIPS: You can specify different settings for each %s via the Page Settings metabox available on the edit page."
+msgstr "Conseil : Vous pouvez spécifier différents réglages pour chaque %s via la boîte de métas de réglages de la page disponible lors de la modification de la page."
+
+#. translators: %s: post type's singular name.
+#: inc/customizer/class-suki-customizer.php:620
+msgid "These are default settings for all Single %s page."
+msgstr "Ce sont les réglages par défaut pour toutes les pages %s uniques."
+
+#. translators: %s: post type's singular name.
+#: inc/customizer/class-suki-customizer.php:611
+msgid "TIPS: You can specify different settings for each taxonomy via the Page Settings metabox available on the term edit page."
+msgstr "Conseil : vous pouvez spécifier différents réglages pour chaque taxonomie via la boîte de métas des réglages de la page disponible lors de la modification de la page du terme."
+
+#. translators: %s: post type's plural name.
+#: inc/customizer/class-suki-customizer.php:607
+msgid "These are default settings for main %s Archive page and the taxonomy archive page."
+msgstr "Ce sont les réglages par défaut pour la principale page d’archive de %s et la page d’archive de taxonomie."
+
+#: inc/compatibilities/elementor/class-suki-compatibility-elementor.php:249
+msgid "Error!"
+msgstr "Erreur !"
+
+#: inc/compatibilities/elementor/class-suki-compatibility-elementor.php:247
+msgid "Color palette applied!"
+msgstr "Palette de couleurs appliquée !"
+
+#: inc/compatibilities/elementor/class-suki-compatibility-elementor.php:213
+msgid "Pressing this button will replace the existing Elementor color picker with the colors you defined above. You can still change and edit Elementor color picker like usual."
+msgstr "Cliquer sur ce bouton remplacera le sélecteur de couleurs Elementor existant par les couleurs que vous avez définies ci-dessus. Vous pouvez toujours changer et modifier le sélecteur de couleurs Elementor comme d’habitude."
+
+#: inc/compatibilities/elementor/class-suki-compatibility-elementor.php:213
+msgid "Apply to Elementor color picker"
+msgstr "Appliquer au sélecteur de couleurs Elementor"
+
+#: inc/compatibilities/elementor/class-suki-compatibility-elementor.php:205
+msgid "Elementor Integration"
+msgstr "Intégration Elementor"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:279
+msgctxt "Suki Pro upsell"
+msgid "AJAX Add To Cart"
+msgstr "Ajouter au panier AJAX"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:137
+msgctxt "Suki Pro upsell"
+msgid "Alternate Hover Image"
+msgstr "Image de survol alternative"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:135
+msgctxt "Suki Pro upsell"
+msgid "Grid Item's Styles"
+msgstr "Styles des éléments de la grille"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:22
+#: inc/customizer/options/blog--entry-grid.php:49
+msgid "Rows gutter"
+msgstr "Gouttière des rangées"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:103
+msgctxt "Suki Pro upsell"
+msgid "Sticky Checkout Button on Mobile"
+msgstr "Épingler le bouton de validation sur mobile"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:92
+msgctxt "Suki Pro upsell"
+msgid "Checkout Optimization"
+msgstr "Optimisation de validation"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:90
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:136
+msgctxt "Suki Pro upsell"
+msgid "Product Quick View Popup"
+msgstr "Fenêtre surgissante de vue rapide du produit"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:88
+msgctxt "Suki Pro upsell"
+msgid "AJAX Add to Cart"
+msgstr "Ajouter au panier AJAX"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:496
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable related products."
+msgstr "Activer/désactiver les produits similaires."
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:495
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable up-sells."
+msgstr "Activer/désactiver les montées en gamme."
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:494
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable product info tabs."
+msgstr "Activer/désactiver les onglets d’info produit."
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:493
+msgctxt "Suki Pro upsell"
+msgid "Change gallery layout on this product page."
+msgstr "Modifier la mise en page de la galerie sur cette page produit."
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:492
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable gallery on this product page."
+msgstr "Activer/désactiver la galerie sur cette page produit."
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:491
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable breadcrumb."
+msgstr "Activer/désactiver le fil d’Ariane."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:59
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:276
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:84
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:124
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:132
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:100
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:489
+#: inc/customizer/options/header--search.php:89
+#: inc/customizer/options/global--social.php:46
+#: inc/customizer/options/_sections.php:291
+#: inc/customizer/options/_sections.php:423
+#: inc/customizer/options/_sections.php:488
+#: inc/customizer/options/page-settings.php:410
+#: inc/admin/class-suki-admin-metabox-page-settings.php:397
+#: inc/admin/class-suki-admin-metabox-page-settings.php:646
+#: inc/admin/class-suki-admin-metabox-page-settings.php:656
+msgctxt "Suki Pro upsell"
+msgid "More Options Available"
+msgstr "Plus d’options disponibles"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:470
+msgid "Product Layout"
+msgstr "Mise en page produit"
+
+#: inc/compatibilities/suki-pro/class-suki-compatibility-suki-pro.php:82
+msgid "WooCommerce Advanced (Legacy)"
+msgstr "WooCommerce avancé (héritage)"
+
+#: inc/helpers.php:719
+msgid "Blog Related Posts"
+msgstr "Articles similaires du blog"
+
+#: inc/helpers.php:714
+msgid "Blog Featured Posts"
+msgstr "Articles mis en avant du blog"
+
+#: inc/helpers.php:709
+msgid "Blog Layout Plus"
+msgstr "Mise en page du blog Plus"
+
+#: inc/helpers.php:703
+msgid "WC Checkout Optimization"
+msgstr "Optimisation de validation WC"
+
+#: inc/helpers.php:698
+msgid "WC Off-Canvas Filters"
+msgstr "Filtres WC hors canevas"
+
+#: inc/helpers.php:693
+msgid "WC Quick View"
+msgstr "Vue rapide WC"
+
+#: inc/helpers.php:688
+msgid "WC AJAX Add To Cart"
+msgstr "Ajouter au panier WC en AJAX"
+
+#: inc/helpers.php:683
+msgid "WC Layout Plus"
+msgstr "Mise en page WC Plus"
+
+#: inc/helpers.php:599
+msgid "WC Layout"
+msgstr "Mise en page WC"
+
+#: inc/helpers.php:588
+msgid "Blog Layout"
+msgstr "Mise en page du blog"
+
+#: inc/helpers.php:557
+msgid "General Typography & Colors"
+msgstr "Typographie et couleurs générales"
+
+#: inc/customizer/options/content--section.php:27
+#: inc/customizer/options/page-header.php:27
+#: inc/customizer/options/page-header.php:95
+#: inc/customizer/options/_sections.php:508 inc/helpers.php:536
+msgid "Dynamic Page Settings"
+msgstr "Réglages des pages dynamiques"
+
+#: inc/helpers.php:516
+msgid "Content & Sidebar Layout"
+msgstr "Mise en page du contenu & de la colonne latérale"
+
+#: inc/helpers.php:506
+msgid "Page Header Layout"
+msgstr "Mise en page de l’en-tête de page"
+
+#: inc/helpers.php:496
+msgid "Header Layout"
+msgstr "Mise en page de l’en-tête"
+
+#: inc/helpers.php:490 inc/helpers.php:500 inc/helpers.php:510
+#: inc/helpers.php:520 inc/helpers.php:530 inc/helpers.php:540
+#: inc/helpers.php:551 inc/helpers.php:561 inc/helpers.php:571
+#: inc/helpers.php:581 inc/helpers.php:592 inc/helpers.php:603
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: inc/helpers.php:486
+msgid "Page Canvas Layout"
+msgstr "Mise en page de canevas de page"
+
+#: inc/helpers.php:474
+msgid "WooCommerce Integration Modules"
+msgstr "Modules d’intégration WooCommerce"
+
+#: inc/helpers.php:473
+msgid "Blog Modules"
+msgstr "Modules de blog"
+
+#: inc/helpers.php:472
+msgid "Assets & Branding Modules"
+msgstr "Modules de ressources et de marque"
+
+#: inc/helpers.php:471
+msgid "Layout Modules"
+msgstr "Modules de mise en page"
+
+#: inc/compatibilities/brizy/customizer/options/brizy.php:41
+msgid "By default, Brizy applies reset CSS to the content and causes any non-native Brizy element (e.g. shortcode) to be unstyled. Disabling Brizy reset CSS makes those elements' inherit theme CSS."
+msgstr "Par défaut, Brizy applique une réinitialisation CSS au contenu et fait en sorte que tout élément Brizy non natif (ex. : code court) ne soit pas stylisé. Désactiver la réinitialisation CSS Brizy fait que le CSS de ces éléments hérite de celui du thème."
+
+#: inc/compatibilities/brizy/customizer/options/brizy.php:40
+msgid "Disable Brizy's reset CSS"
+msgstr "Désactiver la réinitialisation du CSS de Brizy"
+
+#: inc/compatibilities/brizy/customizer/options/brizy.php:28
+msgid "By default, Brizy doesn't have the option to change the maximum content width (fixed at 1170px). Enabling this option will make Brizy use theme's content wrapper width as Brizy content width, so you'll have consistent content width between header, footer, and your Brizy content."
+msgstr "Par défaut, Brizy n’a pas la possibilité de modifier la largeur maximale du contenu (fixée à 1170px). En activant cette option, Brizy utilisera la largeur de l’enveloppe de contenu du thème comme largeur de contenu Brizy, de sorte que vous aurez une largeur de contenu uniforme entre l’en-tête, le pied de page et votre contenu Brizy."
+
+#: inc/compatibilities/brizy/customizer/options/brizy.php:27
+msgid "Use theme's content width as Brizy content width"
+msgstr "Utiliser la largeur de contenu du thème comme largeur de contenu Brizy"
+
+#: inc/compatibilities/brizy/customizer/options/_sections.php:13
+msgid "Brizy Integration"
+msgstr "Intégration Brizy"
+
+#: inc/customizer/options/blog--entry-default.php:155
+#: inc/customizer/options/blog--entry-grid.php:283
+msgid "Content"
+msgstr "Contenu"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:91
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:127
+msgctxt "Suki Pro upsell"
+msgid "Off-Canvas Filters"
+msgstr "Filtres hors canevas"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:62
+msgctxt "Suki Pro upsell"
+msgid "Distraction Free Mode"
+msgstr "Mode sans distraction"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:89
+msgctxt "Suki Pro upsell"
+msgid "Product Alternate Hover Image"
+msgstr "Image au survol alternative du produit"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:118
+msgid "Show \"add to cart\" button"
+msgstr "Afficher le bouton « Ajouter au panier »"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:106
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:116
+msgid "Show products sort filter"
+msgstr "Afficher le filtre de tri des produits"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:104
+msgid "Show products count"
+msgstr "Afficher le nombre de produits"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:25
+msgid "Shop (Products Catalog) Page"
+msgstr "Page boutique (catalogue de produits)"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:183
+msgid "Sidebar that replaces the default sidebar when on WooCommerce pages."
+msgstr "Colonne latérale qui remplace celle par défaut sur les pages WooCommerce."
+
+#: inc/customizer/custom-controls/class-suki-customize-control-builder.php:151
+msgid "No more items to add"
+msgstr "Plus aucun élément à ajouter"
+
+#: inc/customizer/options/page-container.php:106
+msgid "Used when \"narrow content\" layout is active on page content. It should be less than the content wrapper width."
+msgstr "Utilisé lorsque la mise en page « contenu étroit » est active sur le contenu de la page. Cela devrait être inférieur à la largeur de l’enveloppe du contenu."
+
+#: inc/customizer/options/page-container.php:105
+msgid "Narrow content wrapper width"
+msgstr "Largeur de l’enveloppe de contenu étroit"
+
+#. translators: %s: instance number.
+#: inc/customizer/options/header--builder.php:68
+msgid "Menu %s"
+msgstr "Menu %s"
+
+#: inc/customizer/options/header--cart.php:32
+msgid "Cart count text color"
+msgstr "Couleur du texte du compteur du panier"
+
+#: inc/customizer/options/header--cart.php:31
+msgid "Cart count BG color"
+msgstr "Couleur d’arrière-plan du compteur du panier"
+
+#: inc/customizer/options/header--cart.php:24
+msgid "Only available if WooCommerce plugin is installed and activated."
+msgstr "Disponible uniquement si l’extension WooCommerce est installée et activée."
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:332
+msgid "Submenu link text color :active"
+msgstr "Couleur du texte du lien de sous-menu : actif"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:331
+msgid "Submenu link text color :hover"
+msgstr "Couleur du texte du lien du sous-menu : au survol"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:330
+msgid "Submenu link text color"
+msgstr "Couleur du texte du lien du sous-menu"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:329
+msgid "Submenu text color"
+msgstr "Couleur du texte du sous-menu"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:328
+msgid "Submenu border color"
+msgstr "Couleur de la bordure du sous-menu"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:327
+msgid "Submenu background color"
+msgstr "Couleur d’arrière-plan du sous-menu"
+
+#: inc/customizer/options/blog--entry-default.php:223
+#: inc/customizer/options/blog--entry-grid.php:351
+msgid "Post Footer"
+msgstr "Pied de page de publication"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:87
+#: inc/customizer/options/blog--entry-default.php:123
+#: inc/customizer/options/blog--entry-default.php:253
+#: inc/customizer/options/header--mobile-vertical-bar.php:65
+#: inc/customizer/options/blog--entry-grid.php:251
+#: inc/customizer/options/blog--entry-grid.php:381
+#: inc/widgets/class-suki-widget-social.php:101
+msgid "Alignment"
+msgstr "Alignement"
+
+#: inc/customizer/options/blog--entry-default.php:104
+#: inc/customizer/options/blog--entry-default.php:235
+#: inc/customizer/options/blog--entry-grid.php:232
+#: inc/customizer/options/blog--entry-grid.php:363
+msgid "Elements to display"
+msgstr "Éléments à afficher"
+
+#: inc/customizer/options/blog--entry-default.php:92
+#: inc/customizer/options/blog--entry-grid.php:220
+msgid "Post Header"
+msgstr "En-tête de publication"
+
+#: inc/customizer/options/blog--entry-default.php:48
+#: inc/customizer/options/blog--entry-grid.php:176
+msgid "Featured Media"
+msgstr "Média mis en avant"
+
+#. translators: %s: menu number.
+#. translators: %s: instance number.
+#: template-parts/footer-element-menu.php:16
+#: inc/customizer/options/footer--builder.php:81
+msgid "Footer Menu %s"
+msgstr "Menu de pied de page %s"
+
+#: inc/customizer/options/_sections.php:300
+msgctxt "Suki Pro upsell"
+msgid "Header Mega Menu"
+msgstr "Méga menu d’en-tête"
+
+#: inc/customizer/options/_sections.php:264
+msgid "Element: Shopping Cart"
+msgstr "Élément : panier d’achat"
+
+#: inc/helpers.php:646
+msgid "Header Mega Menu"
+msgstr "Méga menu d’en-tête"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:657
+msgctxt "Suki Pro upsell"
+msgid "Insert Custom Blocks (section / element) on any part of this page (header, footer, etc.)."
+msgstr "Insérez des blocs personnalisés (section/élément) sur n’importe quelle partie de cette page (en-tête, pied de page, etc.)."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:647
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable Preloader Screen on this page."
+msgstr "Activer/désactiver l’écran de préchargement sur cette page."
+
+#. translators: %s: post type singular name.
+#: inc/admin/class-suki-admin-metabox-page-settings.php:458
+msgid "TIPS: You can switch between \"Use global default\", \"Use Featured Image\", or \"Use same background image as archive page\" at Customize > Page Settings > Single %s Page."
+msgstr "Conseils : vous pouvez basculer entre « Utiliser l’image globale par défaut  », « Utiliser l’image mise en avant » ou « Utiliser la même image d’arrière-plan que la page d’archive » dans Personnaliser > Réglages de page > Page %s unique."
+
+#. translators: %s: post type plural name.
+#: inc/admin/class-suki-admin-metabox-page-settings.php:439
+msgid "Use same background image as archive page (configured at Customize > Page Settings > %s Archive Page)."
+msgstr "Utiliser la même image d’arrière-plan que la page d’archive (configurée dans Personnaliser > Réglages de page > Page d’archive %s)."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:436
+msgid "Use Featured Image as background image (replace the global default background image)."
+msgstr "Utiliser l’image mise en avant comme image d’arrière-plan (remplace l’image d’arrière-plan globale par défaut)."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:435
+msgid "Use global default background image as configured at Customize > Page Header."
+msgstr "Utiliser l’image d’arrière-plan par défaut comme configurée dans Personnaliser > En-tête de page."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:399
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable Alternate Header Colors on this page."
+msgstr "Activer/désactiver les couleurs d’en-tête alternatif sur cette page."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:398
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable Sticky Header on this page."
+msgstr "Activer/désactiver l’en-tête épinglé sur cette page."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:398
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable Transparent Header on this page."
+msgstr "Activer/désactiver l’en-tête transparent sur cette page."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:69 inc/helpers.php:661
+msgid "Custom Blocks (Hooks)"
+msgstr "Blocs personnalisés (points d’accroche)"
+
+#. Template Name of the theme
+msgid "Page Builder (theme)"
+msgstr "Constructeur de page (thème)"
+
+#: inc/admin/class-suki-admin.php:184
+msgid "Welcome to Suki!"
+msgstr "Bienvenue sur Suki !"
+
+#: inc/admin/class-suki-admin.php:217
+msgid "I already did"
+msgstr "Je l’ai déjà fait"
+
+#: inc/admin/class-suki-admin.php:216
+msgid "Nope, maybe later"
+msgstr "Non, peut-être plus tard"
+
+#: inc/admin/class-suki-admin.php:215
+msgid "Okay, you deserve it"
+msgstr "Ok, vous le méritez"
+
+#: inc/admin/class-suki-admin.php:213
+msgid "Could you do us a BIG favor and give it a 5-star rating on WordPress.org? It would boost our motivation to keep adding new features in the future."
+msgstr "Pourriez-vous nous faire une grande faveur et lui donner une note de 5 étoiles sur WordPress.org ? Cela renforcerait notre motivation à continuer d’ajouter de nouvelles fonctionnalités à l’avenir."
+
+#: inc/admin/class-suki-admin.php:213
+msgid "Hey, it's me David from Suki WordPress theme. I noticed you've been using Suki to build your website - that's awesome!"
+msgstr "Salut, c’est moi David du thème WordPress Suki. J’ai remarqué que vous avez utilisé Suki pour construire votre site web - c’est génial !"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:42
+msgid "Checkout Page"
+msgstr "Page de confirmation de commande"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:36
+msgid "Cart Page"
+msgstr "Page panier"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:29
+msgid "Single Product Page"
+msgstr "Page de produit unique"
+
+#: inc/customizer/options/footer--bottom-bar.php:40
+msgid "Gap with Widgets Bar content"
+msgstr "Écart avec le contenu de la barre des widgets"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:380
+msgid "Highlight text color :active"
+msgstr "Couleur de surlignage du texte : active"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:379
+msgid "Highlight color :active"
+msgstr "Couleur de surlignage :  active"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:378
+msgid "Highlight text color :hover"
+msgstr "Couleur de surlignage du texte : au survol"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:377
+msgid "Highlight color :hover"
+msgstr "Couleur de surbrillance : au survol"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:364
+msgid "Top level menu items highlight"
+msgstr "Mise en surbrillance des éléments de menu du niveau supérieur"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:303
+#: inc/customizer/options/header--mobile-vertical-bar.php:268
+msgid "Link text color :active"
+msgstr "Couleur du texte du lien : actif"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:46
+msgid "Gap with Main Bar content"
+msgstr "Écart avec le contenu de la barre principale"
+
+#: inc/customizer/options/page-header.php:380
+msgid "Background overlay color"
+msgstr "Couleur de superposition de l’arrière-plan"
+
+#: inc/customizer/options/_sections.php:468
+msgid "Single Post Page"
+msgstr "Page d’article unique"
+
+#: inc/customizer/options/_sections.php:447
+msgid "Posts Page"
+msgstr "Page des articles"
+
+#: inc/helpers.php:651
+msgid "Footer Widgets Columns Width"
+msgstr "Largeur des colonnes des widgets de pied de page"
+
+#: inc/helpers.php:626
+msgid "Vertical Header"
+msgstr "En-tête vertical"
+
+#: inc/helpers.php:621
+msgid "Header Elements Plus"
+msgstr "Éléments d’en-tête Plus"
+
+#: inc/helpers.php:867
+msgctxt "icon label"
+msgid "Shopping Cart"
+msgstr "Panier d’achat"
+
+#: inc/helpers.php:866
+msgctxt "icon label"
+msgid "Dropdown Arrow -- Right"
+msgstr "Flèche de liste déroulante -- Droite"
+
+#: inc/helpers.php:865
+msgctxt "icon label"
+msgid "Dropdown Arrow -- Down"
+msgstr "Flèche de liste déroulante -- Bas"
+
+#: inc/helpers.php:864
+msgctxt "icon label"
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/helpers.php:863
+msgctxt "icon label"
+msgid "Close"
+msgstr "Fermer"
+
+#: inc/helpers.php:862
+msgctxt "icon label"
+msgid "Search"
+msgstr "Rechercher"
+
+#. translators: %s: theme name.
+#. translators: %s: tdeme name.
+#: inc/admin/class-suki-admin-metabox-page-settings.php:104
+#: inc/admin/class-suki-admin-metabox-page-settings.php:258
+#: inc/admin/class-suki-admin-metabox-page-settings.php:286
+msgid "Page Settings (%s)"
+msgstr "Réglages de la page (%s)"
+
+#: inc/template-functions.php:463
+msgid "Search&hellip;"
+msgstr "Rechercher&hellip;"
+
+#: inc/customizer/options/header--mobile-main-bar.php:100
+#: inc/customizer/options/header--top-main-bottom-bar.php:165
+#: inc/customizer/options/footer--bottom-bar.php:147
+#: inc/customizer/options/header--mobile-vertical-bar.php:130
+msgid "Spacing between elements"
+msgstr "Espacement entre les éléments"
+
+#: template-parts/entry-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que nous n’ayons pas trouvé ce que vous cherchez. Peut-être que la recherche peut aider."
+
+#: template-parts/entry-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos termes de recherche. Veuillez réessayer avec d’autres mots-clés."
+
+#: template-parts/entry-none.php:18
+msgid "Ready to publish your first post? Get started here."
+msgstr "Prêt à publier votre premier article ? Commencez ici."
+
+#: template-parts/entry-none.php:16
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: template-parts/entry-page.php:58 template-parts/entry.php:58
+#: template-parts/entry-search.php:56
+msgid "Pages:"
+msgstr "Pages :"
+
+#: inc/widgets/class-suki-widget-posts.php:134
+msgid "Display post date?"
+msgstr "Afficher la date de publication ?"
+
+#: inc/widgets/class-suki-widget-posts.php:124
+msgid "or Choose Specific Categories:"
+msgstr "ou choisir des catégories spécifiques :"
+
+#: inc/widgets/class-suki-widget-posts.php:120
+msgid "Query from All Categories?"
+msgstr "Requête à partir de toutes les catégories ?"
+
+#: inc/widgets/class-suki-widget-posts.php:110
+msgid "Sort By:"
+msgstr "Trier par :"
+
+#: inc/widgets/class-suki-widget-posts.php:106
+msgid "Number of posts to show:"
+msgstr "Nombre de publications à afficher :"
+
+#: inc/widgets/class-suki-widget-posts.php:102
+msgid "Title:"
+msgstr "Titre :"
+
+#: inc/widgets/class-suki-widget-posts.php:91
+msgid "Random"
+msgstr "Aléatoire"
+
+#: inc/widgets/class-suki-widget-posts.php:90
+msgid "Recent Published"
+msgstr "Publié récemment"
+
+#: inc/widgets/class-suki-widget-posts.php:60
+msgid "(no title)"
+msgstr "(aucun titre)"
+
+#: inc/widgets/class-suki-widget-posts.php:17
+msgid "Posts list with thumbnail images"
+msgstr "Liste de publications avec images miniatures"
+
+#. translators: %s: theme name.
+#: inc/widgets/class-suki-widget-posts.php:14
+msgid "%s - Posts with Featured Image"
+msgstr "%s - Publications avec image mise en avant"
+
+#: inc/template-tags.php:1137
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. translators: %1$s: comment count number, %2$s: title.
+#: inc/template-tags.php:1110
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s réaction sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: title.
+#: inc/template-tags.php:1104
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Une réaction sur &ldquo;%1$s&rdquo;"
+
+#: inc/template-tags.php:1040
+msgid "Newer Posts"
+msgstr "Articles plus récents"
+
+#: inc/template-tags.php:1039
+msgid "Older Posts"
+msgstr "Articles plus anciens"
+
+#: template-parts/header-element-search-dropdown.php:20
+msgid "Search"
+msgstr "Rechercher"
+
+#. translators: %s: menu number.
+#. translators: %s: number of Header Menu.
+#: template-parts/header-element-menu.php:16 inc/class-suki.php:232
+msgid "Header Menu %s"
+msgstr "Menu d’en-tête %s"
+
+#: inc/template-tags.php:274
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: inc/template-tags.php:252 inc/customizer/options/page-settings.php:240
+msgid "Oops! That page can not be found."
+msgstr "Oops ! Cette page est introuvable."
+
+#. translators: %s: search query.
+#: inc/template-tags.php:233
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: inc/template-tags.php:33
+msgid "Assign menu to this location"
+msgstr "Assigner le menu à cet emplacement"
+
+#: inc/template-functions.php:403
+msgid "Expand / Collapse"
+msgstr "Agrandir/réduire"
+
+#: inc/helpers.php:677
+msgid "White Label"
+msgstr "Marque blanche"
+
+#: inc/customizer/options/_sections.php:47 inc/helpers.php:547
+msgid "Color Palette"
+msgstr "Palette de couleurs"
+
+#: inc/helpers.php:672
+msgid "Custom Icons"
+msgstr "Icônes personnalisées"
+
+#: inc/helpers.php:667
+msgid "Custom Fonts"
+msgstr "Polices personnalisées"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:70 inc/helpers.php:656
+msgid "Preloader Screen"
+msgstr "Ecran de pré-chargement"
+
+#: inc/helpers.php:641
+msgid "Alternate Header Colors"
+msgstr "Couleurs d’en-tête alternatif"
+
+#: inc/helpers.php:631
+msgid "Transparent Header"
+msgstr "En-tête transparent"
+
+#: inc/helpers.php:636
+msgid "Sticky Header"
+msgstr "En-tête fixe"
+
+#: inc/customizer/options/global--google-fonts.php:36
+msgid "\"Latin\" character subset is included by default."
+msgstr "Le sous-ensemble de caractères« Latin » est inclus par défaut."
+
+#: inc/customizer/options/global--google-fonts.php:35
+msgid "Additional character subsets"
+msgstr "Sous-ensembles de caractères supplémentaires"
+
+#: inc/customizer/options/global--google-fonts.php:23
+msgid "Google Fonts would be served from Google's server. There are chances that visitor's data might be collected by Google. If you do not accept this, you can use \"Self-Hosted Google Fonts\" plugin to self-host the fonts on your own server. &mdash; If you are not using any Google Fonts on your settings, you can ignore this notice."
+msgstr "Il y a des chances que les données des visiteurs soient collectées par Google. Si vous ne l’acceptez pas, vous pouvez utiliser l’extension « Self-Hosted Google Fonts » pour héberger les polices sur votre propre serveur. &mdash; Si vous n’utilisez aucune police Google dans vos réglages, vous pouvez ignorer cette notification."
+
+#: inc/customizer/options/page-settings.php:414
+msgctxt "Suki Pro upsell"
+msgid "Enable Alternate Header colors on this page"
+msgstr "Activer les couleurs d'en-tête alternatif sur cette page"
+
+#: inc/customizer/options/page-settings.php:413
+msgctxt "Suki Pro upsell"
+msgid "Enable Transparent Header on this page"
+msgstr "Activer l’en-tête transparent sur cette page."
+
+#: inc/customizer/options/page-settings.php:336
+#: inc/admin/class-suki-admin-metabox-page-settings.php:429
+msgid "Page header background image"
+msgstr "Image d’arrière-plan d’en-tête de page"
+
+#: inc/customizer/options/page-settings.php:327
+msgid "Custom"
+msgstr "Personnalisé"
+
+#. translators: %s: singular post type name
+#: inc/customizer/options/page-settings.php:324
+msgid "Use %s's featured image (if specified)"
+msgstr "Utiliser l’image mise en avant de %s (si spécifiée)"
+
+#. translators: %s: plural post type name
+#: inc/customizer/options/page-settings.php:320
+msgid "Same as %s archive"
+msgstr "Identique à l’archive %s"
+
+#: inc/customizer/options/page-header.php:363
+msgid "Background attachment"
+msgstr "Fichier joint d’arrière-plan"
+
+#: inc/customizer/options/page-header.php:348
+msgid "Background image"
+msgstr "Image d’arrière-plan"
+
+#: inc/customizer/options/page-header.php:336
+msgid "Background Image (Global Default)"
+msgstr "Image d’arrière-plan (globale par défaut)"
+
+#: inc/customizer/options/page-header.php:311
+msgid "Breadcrumb link text color :hover"
+msgstr "Couleur du texte du lien de fil d’Ariane : au survol"
+
+#: inc/customizer/options/page-header.php:310
+msgid "Breadcrumb link text color"
+msgstr "Couleur du texte du lien de fil d’Ariane"
+
+#: inc/customizer/options/page-header.php:309
+msgid "Breadcrumb text color"
+msgstr "Couleur du texte du fil d’Ariane"
+
+#: inc/customizer/options/page-header.php:286
+msgid "Breadcrumb typography"
+msgstr "Typographie du fil d’Ariane"
+
+#: inc/customizer/options/page-header.php:114
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/customizer/options/page-header.php:115
+msgid "Breadcrumb NavXT"
+msgstr "Fil d’Ariane NavXT"
+
+#: inc/customizer/options/page-header.php:116
+msgid "Breadcrumb Trail"
+msgstr "Piste du fil d’Ariane"
+
+#: inc/customizer/options/page-header.php:40
+msgid "Enable Page Header"
+msgstr "Activer l’en-tête de page"
+
+#: inc/customizer/options/page-header.php:366
+#: inc/customizer/options/page-container.php:275
+msgid "Fixed"
+msgstr "Fixée"
+
+#: inc/customizer/options/page-header.php:365
+#: inc/customizer/options/page-container.php:274
+msgid "Scroll"
+msgstr "Défilement"
+
+#: inc/customizer/options/page-container.php:272
+msgid "Outside background attachment"
+msgstr "Fichier joint de l’arrière-plan extérieur"
+
+#: inc/customizer/options/page-container.php:257
+msgid "Repeat both axis"
+msgstr "Répéter les deux axes"
+
+#: inc/customizer/options/page-container.php:256
+msgid "Repeat Y (vertically)"
+msgstr "Répéter Y (verticalement)"
+
+#: inc/customizer/options/page-container.php:255
+msgid "Repeat X (horizontally)"
+msgstr "Répéter X (horizontalement)"
+
+#: inc/customizer/options/page-container.php:254
+msgid "No repeat"
+msgstr "Aucune répétition"
+
+#: inc/customizer/options/page-container.php:252
+msgid "Outside background repeat"
+msgstr "Répétition à l’extérieur de l’arrière-plan"
+
+#: inc/customizer/options/page-container.php:237
+msgid "Contain"
+msgstr "Contenir"
+
+#: inc/customizer/options/page-container.php:236
+msgid "Cover"
+msgstr "Couvrir"
+
+#: inc/customizer/options/page-container.php:233
+msgid "Outside background size"
+msgstr "Taille de l’arrière-plan extérieur"
+
+#: inc/customizer/options/page-container.php:218
+msgid "Right bottom"
+msgstr "Inférieur droit"
+
+#: inc/customizer/options/page-container.php:217
+msgid "Right center"
+msgstr "Centre droit"
+
+#: inc/customizer/options/page-container.php:216
+msgid "Right top"
+msgstr "Supérieur droit"
+
+#: inc/customizer/options/page-container.php:215
+msgid "Center bottom"
+msgstr "Centre inférieur"
+
+#: inc/customizer/options/page-container.php:214
+msgid "Center center"
+msgstr "Centré au centre"
+
+#: inc/customizer/options/page-container.php:213
+msgid "Center top"
+msgstr "Centre supérieur"
+
+#: inc/customizer/options/page-container.php:212
+msgid "Left bottom"
+msgstr "Inférieur gauche"
+
+#: inc/customizer/options/page-container.php:211
+msgid "Left center"
+msgstr "Centré à gauche"
+
+#: inc/customizer/options/page-container.php:210
+msgid "Left top"
+msgstr "Supérieur gauche"
+
+#: inc/customizer/options/page-container.php:208
+msgid "Outside background position"
+msgstr "Position de l’arrière-plan extérieur"
+
+#: inc/customizer/options/page-container.php:193
+msgid "Outside background image"
+msgstr "Image d’arrière-plan extérieur"
+
+#: inc/customizer/options/page-container.php:180
+msgid "Outside background color"
+msgstr "Couleur d’arrière-plan extérieur"
+
+#: inc/customizer/options/page-container.php:160
+msgid "Boxed page shadow"
+msgstr "Ombre de page encadrée"
+
+#: inc/customizer/options/page-container.php:140
+msgid "Boxed page max width"
+msgstr "Largeur maxi de la page encadrée"
+
+#: inc/customizer/options/page-container.php:127
+msgid "Boxed Page"
+msgstr "Page encadrée"
+
+#: inc/customizer/options/page-container.php:85
+msgid "Content wrapper width"
+msgstr "Largeur de l’enveloppe de contenu"
+
+#: inc/customizer/options/page-container.php:72
+msgid "Content Wrapper"
+msgstr "Enveloppe de contenu"
+
+#: inc/customizer/options/page-container.php:58
+msgid "Page background color"
+msgstr "Couleur d’arrière-plan de page"
+
+#: inc/customizer/options/page-container.php:35
+msgid "Boxed"
+msgstr "Encadré"
+
+#: inc/customizer/options/content--section.php:47
+#: inc/customizer/options/footer--widgets-bar.php:35
+#: inc/customizer/options/page-header.php:151
+#: inc/customizer/options/header--top-main-bottom-bar.php:80
+#: inc/customizer/options/page-container.php:31
+#: inc/customizer/options/page-settings.php:67
+#: inc/customizer/options/footer--bottom-bar.php:73
+#: inc/admin/class-suki-admin-metabox-page-settings.php:491
+msgid "Full width"
+msgstr "Pleine largeur"
+
+#: inc/customizer/options/page-container.php:28
+msgid "Page layout"
+msgstr "Mise en page de la page"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:369
+msgid "Border top"
+msgstr "Bordure supérieure"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:368
+msgid "Underline"
+msgstr "Souligné"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:367
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:33
+msgid "Merge inside Main Bar wrapper"
+msgstr "Fusionner à l’intérieur de l’enveloppe de la barre principale"
+
+#: inc/customizer/options/header--search.php:69
+msgid "Dropdown width"
+msgstr "Largeur de liste déroulante"
+
+#: inc/customizer/options/header--search.php:36
+msgid "Bar width"
+msgstr "Largeur de la barre"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:258
+#: inc/customizer/options/header--mobile-vertical-bar.php:223
+msgid "Submenu link typography"
+msgstr "Typographie des liens de sous-menu"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:234
+#: inc/customizer/options/header--mobile-vertical-bar.php:199
+msgid "Menu link typography"
+msgstr "Typographie des liens de menu"
+
+#: inc/customizer/options/footer--scroll-to-top.php:84
+#: inc/customizer/options/header--mobile-vertical-bar.php:46
+msgid "Position"
+msgstr "Position"
+
+#: inc/customizer/options/footer--scroll-to-top.php:172
+#: inc/customizer/options/header--mobile-main-bar.php:134
+#: inc/customizer/options/header--top-main-bottom-bar.php:271
+#: inc/customizer/options/header--mobile-vertical-bar.php:236
+msgid "Icon size"
+msgstr "Taille de l'icône"
+
+#: inc/customizer/options/header--mobile-main-bar.php:27
+#: inc/customizer/options/header--top-main-bottom-bar.php:99
+msgid "Height"
+msgstr "Hauteur"
+
+#: inc/customizer/options/header--logo.php:81
+msgid "Mobile Logo image"
+msgstr "Image du logo mobile"
+
+#: inc/customizer/options/header--logo.php:49
+#: inc/customizer/options/header--logo.php:95
+msgid "Max width"
+msgstr "Largeur maximale"
+
+#: inc/customizer/options/header--logo.php:35
+msgid "Logo image"
+msgstr "Image du logo"
+
+#: inc/customizer/options/header--html.php:38
+msgid "Plain text, HTML tags, and shortcode are allowed."
+msgstr "Texte brut, balises HTML et codes courts sont autorisés."
+
+#. translators: %s: number of HTML element.
+#. translators: %s: instance number.
+#: inc/customizer/options/header--html.php:24
+#: inc/customizer/options/header--builder.php:70
+#: inc/customizer/options/header--builder.php:113
+msgid "HTML %s"
+msgstr "HTML %s"
+
+#: inc/customizer/options/header--builder.php:124
+msgid "Drawer (Popup)"
+msgstr "Tiroir (fenêtre surgissante)"
+
+#: inc/customizer/options/header--builder.php:118
+msgid "Toggle"
+msgstr "Bascule"
+
+#: inc/customizer/options/header--builder.php:115
+msgid "Search Icon"
+msgstr "Icône de recherche"
+
+#: template-parts/header-element-mobile-vertical-toggle.php:19
+#: inc/customizer/options/header--builder.php:111
+msgid "Mobile Menu"
+msgstr "Menu mobile"
+
+#: inc/customizer/options/header--builder.php:110
+#: inc/customizer/options/header--logo.php:69
+msgid "Mobile Logo"
+msgstr "Logo mobile"
+
+#: inc/customizer/options/header--builder.php:108
+msgid "Mobile Header"
+msgstr "En-tête mobile"
+
+#: inc/customizer/options/header--builder.php:85
+msgid "Bottom - Center"
+msgstr "Bas - Centre"
+
+#: inc/customizer/options/header--builder.php:84
+#: inc/customizer/options/header--builder.php:86
+msgid "Bottom - Left"
+msgstr "Bas - Gauche"
+
+#: inc/customizer/options/header--builder.php:84
+#: inc/customizer/options/header--builder.php:86
+msgid "Bottom - Right"
+msgstr "Bas - Droite"
+
+#: inc/customizer/options/header--builder.php:82
+msgid "Main - Center"
+msgstr "Principal - Centre"
+
+#: inc/customizer/options/header--builder.php:81
+#: inc/customizer/options/header--builder.php:83
+msgid "Main - Left"
+msgstr "Principal - Gauche"
+
+#: inc/customizer/options/header--builder.php:81
+#: inc/customizer/options/header--builder.php:83
+msgid "Main - Right"
+msgstr "Principal - Droite"
+
+#: inc/customizer/options/header--builder.php:79
+msgid "Top - Center"
+msgstr "Haut - Centre"
+
+#: inc/customizer/options/header--builder.php:78
+#: inc/customizer/options/header--builder.php:80
+msgid "Top - Left"
+msgstr "Haut - Gauche"
+
+#: inc/customizer/options/header--builder.php:78
+#: inc/customizer/options/header--builder.php:80
+msgid "Top - Right"
+msgstr "Haut - Droite"
+
+#: inc/customizer/options/header--search.php:56
+#: inc/customizer/options/header--builder.php:72
+msgid "Search Dropdown"
+msgstr "Liste déroulante de recherche"
+
+#: inc/customizer/options/header--search.php:23
+#: inc/customizer/options/header--builder.php:71
+#: inc/customizer/options/header--builder.php:114
+msgid "Search Bar"
+msgstr "Barre de recherche"
+
+#: inc/customizer/options/header--builder.php:66
+#: inc/customizer/options/header--logo.php:23
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/options/header--builder.php:64
+msgid "Desktop Header"
+msgstr "En-tête d’ordinateur de bureau"
+
+#: inc/customizer/options/header--builder.php:27
+#: inc/customizer/options/_sections.php:171
+msgid "Tablet / Mobile"
+msgstr "Tablette/mobile"
+
+#: inc/customizer/options/header--builder.php:23
+#: inc/customizer/options/footer--scroll-to-top.php:48
+#: inc/customizer/options/_sections.php:167
+msgid "Desktop"
+msgstr "Ordinateur de bureau"
+
+#: inc/customizer/options/footer--social.php:69
+#: inc/customizer/options/header--social.php:69
+msgid "New tab"
+msgstr "Nouvel onglet"
+
+#: inc/customizer/options/footer--social.php:68
+#: inc/customizer/options/header--social.php:68
+msgid "Same tab"
+msgstr "Même onglet"
+
+#: inc/customizer/options/footer--social.php:66
+#: inc/customizer/options/header--social.php:66
+msgid "Open links in"
+msgstr "Ouvrir les liens dans"
+
+#: inc/customizer/options/footer--social.php:41
+#: inc/customizer/options/header--social.php:41
+msgid "Active links"
+msgstr "Liens actifs"
+
+#. translators: %s: link to "Global Settings" section.
+#: inc/customizer/options/footer--social.php:26
+#: inc/customizer/options/header--social.php:26
+msgid "You can edit Social Media URLs via %s."
+msgstr "Vous pouvez modifier les URL de médias sociaux via %s."
+
+#: inc/customizer/options/footer--social.php:23
+#: inc/customizer/options/header--social.php:23 inc/helpers.php:577
+msgid "Social Links"
+msgstr "Liens sociaux"
+
+#: inc/customizer/options/footer--copyright.php:38
+msgid "Available tags: {{year}}, {{sitename}}, {{theme}}, {{theme_author}}."
+msgstr "Balises disponibles : {{year}}, {{sitename}}, {{theme}}, {{themeauthor}}."
+
+#: inc/customizer/options/footer--copyright.php:37
+msgid "Copyright Text"
+msgstr "Texte de Copyright"
+
+#: inc/customizer/options/footer--builder.php:82
+#: inc/customizer/options/header--builder.php:75
+#: inc/customizer/options/header--builder.php:117
+msgid "Social"
+msgstr "Social"
+
+#: inc/customizer/options/footer--builder.php:79
+#: inc/customizer/options/footer--copyright.php:23
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/options/footer--builder.php:77
+msgid "Bottom bar elements"
+msgstr "Eléments de la barre inférieure"
+
+#: inc/customizer/options/footer--builder.php:49
+msgid "6 columns"
+msgstr "6 colonnes"
+
+#: inc/customizer/options/footer--builder.php:48
+msgid "5 columns"
+msgstr "5 colonnes"
+
+#: inc/customizer/options/footer--builder.php:47
+msgid "4 columns"
+msgstr "4 colonnes"
+
+#: inc/customizer/options/footer--builder.php:46
+msgid "3 columns"
+msgstr "3 colonnes"
+
+#: inc/customizer/options/footer--builder.php:45
+msgid "2 columns"
+msgstr "2 colonnes"
+
+#: inc/customizer/options/footer--builder.php:44
+msgid "1 column"
+msgstr "1 colonne"
+
+#: inc/customizer/options/footer--builder.php:43
+msgid "-- Disabled --"
+msgstr "-- Désactivé --"
+
+#: inc/customizer/options/footer--builder.php:41
+msgid "Widgets columns"
+msgstr "Colonnes de widgets"
+
+#: inc/customizer/options/footer--builder.php:20
+#: inc/customizer/options/header--builder.php:30
+msgid "Hide"
+msgstr "Masquer"
+
+#: inc/customizer/options/footer--bottom-bar.php:27
+msgid "Merge inside Widgets Bar wrapper"
+msgstr "Fusionner à l’intérieur de l’enveloppe de la barre des widgets"
+
+#: inc/customizer/options/general--title.php:55
+msgid "Title link text color :hover"
+msgstr "Couleur du texte du lien de titre : au survol"
+
+#: inc/customizer/options/general--title.php:54
+msgid "Title text color"
+msgstr "Couleur du texte du titre"
+
+#: inc/customizer/options/general--title.php:41
+msgid "Title typography"
+msgstr "Typographie du titre"
+
+#: inc/customizer/options/general--small-title.php:55
+msgid "Small Title link text color :hover"
+msgstr "Couleur du texte du lien du petit titre : au survol"
+
+#: inc/customizer/options/general--small-title.php:54
+msgid "Small Title text color"
+msgstr "Couleur du texte du lien du petit titre"
+
+#: inc/customizer/options/general--small-title.php:41
+msgid "Small Title typography"
+msgstr "Typographie du petit titre"
+
+#: inc/customizer/options/general--meta.php:56
+msgid "Meta link text color :hover"
+msgstr "Couleur du texte du lien de méta : au survol"
+
+#: inc/customizer/options/general--meta.php:55
+msgid "Meta link text color"
+msgstr "Couleur du texte du lien de méta"
+
+#: inc/customizer/options/general--meta.php:54
+msgid "Meta text color"
+msgstr "Couleur du texte de méta"
+
+#: inc/customizer/options/general--meta.php:41
+msgid "Meta typography"
+msgstr "Typographie de méta"
+
+#: inc/customizer/options/general--headings.php:58
+msgid "Heading link text color :hover"
+msgstr "Couleur du texte du lien d’en-tête : au survol"
+
+#: inc/customizer/options/general--headings.php:57
+msgid "Heading text color"
+msgstr "Couleur du texte de titre"
+
+#. translators: %1$s: heading level number.
+#: inc/customizer/options/general--headings.php:43
+msgid "Heading %1$s (H%1$s) typography"
+msgstr "Typographie des titres %1$s (H%1$s)"
+
+#: inc/customizer/options/general--form-inputs.php:119
+msgid "Text color :focus"
+msgstr "Couleur du texte : focus"
+
+#: inc/customizer/options/general--form-inputs.php:118
+msgid "Border color :focus"
+msgstr "Couleur de bordure : focus"
+
+#: inc/customizer/options/general--form-inputs.php:117
+msgid "Background color :focus"
+msgstr "Couleur d’arrière-plan : focus"
+
+#: inc/customizer/options/general--buttons.php:101
+msgid "Button typography"
+msgstr "Typographie des boutons"
+
+#: inc/customizer/options/general--form-inputs.php:64
+#: inc/customizer/options/footer--scroll-to-top.php:220
+#: inc/customizer/options/general--buttons.php:64
+msgid "Border radius"
+msgstr "Rayon de la bordure"
+
+#: inc/customizer/options/general--line-subtle.php:22
+msgid "Line / border color"
+msgstr "Couleur de la ligne/bordure"
+
+#: inc/customizer/options/general--base.php:41
+msgid "Body (base) text typography"
+msgstr "Taille du texte du corps (base)"
+
+#: inc/customizer/options/general--blockquote.php:41
+msgid "Blockquote typography"
+msgstr "Typographie de bloc de citation"
+
+#: inc/customizer/options/content--sidebar.php:346
+#: inc/customizer/options/footer--widgets-bar.php:271
+msgid "Widget title border color"
+msgstr "Couleur de la bordure du titre des widgets"
+
+#: inc/customizer/options/content--sidebar.php:345
+#: inc/customizer/options/footer--widgets-bar.php:270
+msgid "Widget title background color"
+msgstr "Couleur d’arrière-plan de titre de widget"
+
+#: inc/customizer/options/content--sidebar.php:344
+#: inc/customizer/options/footer--widgets-bar.php:269
+msgid "Widget title text color"
+msgstr "Couleur du texte du titre de widget"
+
+#: inc/customizer/options/content--sidebar.php:343
+#: inc/customizer/options/footer--widgets-bar.php:268
+#: inc/customizer/options/header--mobile-main-bar.php:164
+#: inc/customizer/options/header--top-main-bottom-bar.php:302
+#: inc/customizer/options/footer--bottom-bar.php:224
+#: inc/customizer/options/header--mobile-vertical-bar.php:267
+#: inc/customizer/options/general--link.php:16
+msgid "Link text color :hover"
+msgstr "Couleur du texte du lien : au survol"
+
+#: inc/customizer/options/content--sidebar.php:342
+#: inc/customizer/options/footer--widgets-bar.php:267
+#: inc/customizer/options/header--mobile-main-bar.php:163
+#: inc/customizer/options/header--top-main-bottom-bar.php:301
+#: inc/customizer/options/footer--bottom-bar.php:223
+#: inc/customizer/options/header--mobile-vertical-bar.php:266
+#: inc/customizer/options/general--link.php:15
+msgid "Link text color"
+msgstr "Couleur du texte de lien"
+
+#: inc/customizer/options/content--sidebar.php:318
+#: inc/customizer/options/footer--widgets-bar.php:243
+#: inc/customizer/options/header--top-main-bottom-bar.php:370
+msgid "Border bottom"
+msgstr "Bordure inférieure"
+
+#: inc/customizer/options/content--sidebar.php:317
+#: inc/customizer/options/footer--widgets-bar.php:242
+msgid "Box"
+msgstr "Boîte"
+
+#: inc/customizer/options/content--sidebar.php:314
+#: inc/customizer/options/footer--widgets-bar.php:239
+msgid "Widget title decoration"
+msgstr "Décoration du titre du widget"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:90
+#: inc/customizer/options/content--sidebar.php:298
+#: inc/customizer/options/footer--builder.php:86
+#: inc/customizer/options/blog--entry-default.php:126
+#: inc/customizer/options/blog--entry-default.php:256
+#: inc/customizer/options/header--builder.php:122
+#: inc/customizer/options/footer--widgets-bar.php:223
+#: inc/customizer/options/page-header.php:80
+#: inc/customizer/options/header--mobile-vertical-bar.php:68
+#: inc/customizer/options/blog--entry-grid.php:254
+#: inc/customizer/options/blog--entry-grid.php:384
+#: inc/widgets/class-suki-widget-social.php:68
+msgid "Center"
+msgstr "Centre"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:89
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:91
+#: inc/customizer/options/content--sidebar.php:297
+#: inc/customizer/options/content--sidebar.php:299
+#: inc/customizer/options/footer--builder.php:85
+#: inc/customizer/options/footer--builder.php:87
+#: inc/customizer/options/blog--entry-default.php:125
+#: inc/customizer/options/blog--entry-default.php:127
+#: inc/customizer/options/blog--entry-default.php:255
+#: inc/customizer/options/blog--entry-default.php:257
+#: inc/customizer/options/header--builder.php:121
+#: inc/customizer/options/header--builder.php:123
+#: inc/customizer/options/footer--widgets-bar.php:222
+#: inc/customizer/options/footer--widgets-bar.php:224
+#: inc/customizer/options/footer--scroll-to-top.php:86
+#: inc/customizer/options/footer--scroll-to-top.php:87
+#: inc/customizer/options/page-header.php:79
+#: inc/customizer/options/page-header.php:81
+#: inc/customizer/options/header--mobile-vertical-bar.php:48
+#: inc/customizer/options/header--mobile-vertical-bar.php:49
+#: inc/customizer/options/header--mobile-vertical-bar.php:67
+#: inc/customizer/options/header--mobile-vertical-bar.php:69
+#: inc/customizer/options/blog--entry-grid.php:253
+#: inc/customizer/options/blog--entry-grid.php:255
+#: inc/customizer/options/blog--entry-grid.php:383
+#: inc/customizer/options/blog--entry-grid.php:385
+#: inc/widgets/class-suki-widget-social.php:67
+#: inc/widgets/class-suki-widget-social.php:69
+msgid "Left"
+msgstr "Gauche"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:89
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:91
+#: inc/customizer/options/content--sidebar.php:297
+#: inc/customizer/options/content--sidebar.php:299
+#: inc/customizer/options/footer--builder.php:85
+#: inc/customizer/options/footer--builder.php:87
+#: inc/customizer/options/blog--entry-default.php:125
+#: inc/customizer/options/blog--entry-default.php:127
+#: inc/customizer/options/blog--entry-default.php:255
+#: inc/customizer/options/blog--entry-default.php:257
+#: inc/customizer/options/header--builder.php:121
+#: inc/customizer/options/header--builder.php:123
+#: inc/customizer/options/footer--widgets-bar.php:222
+#: inc/customizer/options/footer--widgets-bar.php:224
+#: inc/customizer/options/footer--scroll-to-top.php:86
+#: inc/customizer/options/footer--scroll-to-top.php:87
+#: inc/customizer/options/page-header.php:79
+#: inc/customizer/options/page-header.php:81
+#: inc/customizer/options/header--mobile-vertical-bar.php:48
+#: inc/customizer/options/header--mobile-vertical-bar.php:49
+#: inc/customizer/options/header--mobile-vertical-bar.php:67
+#: inc/customizer/options/header--mobile-vertical-bar.php:69
+#: inc/customizer/options/blog--entry-grid.php:253
+#: inc/customizer/options/blog--entry-grid.php:255
+#: inc/customizer/options/blog--entry-grid.php:383
+#: inc/customizer/options/blog--entry-grid.php:385
+#: inc/widgets/class-suki-widget-social.php:67
+#: inc/widgets/class-suki-widget-social.php:69
+msgid "Right"
+msgstr "Droite"
+
+#: inc/customizer/options/content--sidebar.php:295
+#: inc/customizer/options/footer--widgets-bar.php:220
+msgid "Widget title alignment"
+msgstr "Alignement du titre de widget"
+
+#: inc/customizer/options/content--sidebar.php:281
+#: inc/customizer/options/footer--widgets-bar.php:206
+msgid "Widget title typography"
+msgstr "Typographie de titre de widget"
+
+#: inc/customizer/options/content--sidebar.php:217
+#: inc/customizer/options/content--sidebar.php:249
+#: inc/customizer/options/footer--widgets-bar.php:174
+#: inc/customizer/options/header--top-main-bottom-bar.php:210
+#: inc/customizer/options/footer--bottom-bar.php:200
+#: inc/customizer/options/header--mobile-vertical-bar.php:175
+msgid "Text typography"
+msgstr "Typographie du texte"
+
+#: inc/customizer/options/content--sidebar.php:118
+#: inc/customizer/options/footer--widgets-bar.php:129
+msgid "Gap between widgets"
+msgstr "Écart entre les widgets"
+
+#: inc/customizer/options/content--sidebar.php:104
+msgid "Separate boxes"
+msgstr "Boîtes distinctes"
+
+#: inc/customizer/options/content--sidebar.php:103
+msgid "Merged in one box"
+msgstr "Fusionné dans une seule boîte"
+
+#: inc/customizer/options/content--sidebar.php:101
+msgid "Widgets style"
+msgstr "Style des widgets"
+
+#: inc/customizer/options/content--sidebar.php:87
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/customizer/options/content--sidebar.php:61
+msgid "Gap with main content"
+msgstr "Écart par rapport au contenu principal"
+
+#: inc/customizer/options/content--sidebar.php:36
+#: inc/customizer/options/header--mobile-vertical-bar.php:83
+msgid "Width"
+msgstr "Largeur"
+
+#: inc/customizer/options/content--main.php:109
+msgid "Content Box border color"
+msgstr "Couleur de la bordure de la boîte de contenu"
+
+#: inc/customizer/options/content--main.php:108
+msgid "Content Box BG color"
+msgstr "Couleur d’arrière-plan de la boîte de contenu"
+
+#: inc/customizer/options/content--sidebar.php:333
+#: inc/customizer/options/content--main.php:102
+#: inc/customizer/options/footer--widgets-bar.php:258
+#: inc/customizer/options/page-header.php:300
+#: inc/customizer/options/header--mobile-main-bar.php:155
+#: inc/customizer/options/header--top-main-bottom-bar.php:292
+#: inc/customizer/options/footer--bottom-bar.php:214
+#: inc/customizer/options/header--mobile-vertical-bar.php:257
+#: inc/customizer/options/blog--entry-grid.php:413
+msgid "Colors"
+msgstr "Couleurs"
+
+#. translators: %s: link to "Body (Base)" section.
+#: inc/customizer/options/content--main.php:86
+msgid "Inherit typography settings from %s."
+msgstr "Hériter des réglages de typographie de %s."
+
+#: inc/customizer/options/content--sidebar.php:193
+#: inc/customizer/options/content--main.php:83
+#: inc/customizer/options/footer--widgets-bar.php:150
+#: inc/customizer/options/page-header.php:222
+#: inc/customizer/options/header--mobile-main-bar.php:121
+#: inc/customizer/options/header--top-main-bottom-bar.php:186
+#: inc/customizer/options/footer--bottom-bar.php:168
+#: inc/customizer/options/header--mobile-vertical-bar.php:151
+msgid "Typography"
+msgstr "Typographie"
+
+#: inc/customizer/options/content--sidebar.php:173
+#: inc/customizer/options/general--form-inputs.php:45
+#: inc/customizer/options/content--main.php:63
+#: inc/customizer/options/footer--widgets-bar.php:90
+#: inc/customizer/options/page-header.php:202
+#: inc/customizer/options/header--mobile-main-bar.php:81
+#: inc/customizer/options/header--top-main-bottom-bar.php:146
+#: inc/customizer/options/general--buttons.php:45
+#: inc/customizer/options/footer--bottom-bar.php:128
+#: inc/customizer/options/blog--entry-grid.php:144
+msgid "Border"
+msgstr "Bordure"
+
+#: inc/customizer/options/content--sidebar.php:146
+#: inc/customizer/options/general--form-inputs.php:22
+#: inc/customizer/options/content--main.php:36
+#: inc/customizer/options/content--section.php:116
+#: inc/customizer/options/footer--widgets-bar.php:63
+#: inc/customizer/options/footer--scroll-to-top.php:200
+#: inc/customizer/options/page-header.php:175
+#: inc/customizer/options/header--mobile-main-bar.php:54
+#: inc/customizer/options/header--top-main-bottom-bar.php:119
+#: inc/customizer/options/general--buttons.php:22
+#: inc/customizer/options/footer--bottom-bar.php:101
+#: inc/customizer/options/header--mobile-vertical-bar.php:103
+#: inc/customizer/options/blog--entry-grid.php:121
+msgid "Padding"
+msgstr "Marge interne"
+
+#: inc/customizer/options/blog--single.php:39
+msgid "Show prev / next posts navigation"
+msgstr "Afficher la navigation des publications précédentes/suivantes"
+
+#: inc/customizer/options/blog--single.php:27
+msgid "Show author bio"
+msgstr "Afficher la bio de l’auteur"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:73
+msgid "Grid Item"
+msgstr "Élément de grille"
+
+#: inc/customizer/options/blog--entry-default.php:237
+#: inc/customizer/options/blog--entry-grid.php:365
+msgid "Footer Meta"
+msgstr "Méta de pied de page"
+
+#: inc/customizer/options/blog--entry-default.php:271
+#: inc/customizer/options/blog--entry-grid.php:399
+msgid "Available tags: {{date}}, {{categories}}, {{tags}}, {{author}}, {{avatar}}, {{comments}}"
+msgstr "Balises disponibles : {{date}}, {{categories}}, {{tags}}, {{author}}, {{avatar}}, {{comments}}"
+
+#: inc/customizer/options/blog--entry-default.php:106
+#: inc/customizer/options/blog--entry-grid.php:234
+msgid "Header Meta"
+msgstr "Méta d’en-tête"
+
+#: inc/customizer/options/page-header.php:73
+msgid "Page header elements"
+msgstr "Éléments d’en-tête de page"
+
+#: inc/customizer/options/blog--entry-default.php:64
+#: inc/customizer/options/blog--entry-grid.php:192
+msgid "After Post Header"
+msgstr "Après l’en-tête de la publication"
+
+#: inc/customizer/options/blog--entry-default.php:63
+#: inc/customizer/options/blog--entry-grid.php:191
+msgid "Before Post Header"
+msgstr "Avant l’en-tête de la publication"
+
+#: inc/customizer/options/blog--entry-default.php:61
+#: inc/customizer/options/blog--entry-grid.php:189
+msgid "Featured media position"
+msgstr "Position de média mis en avant"
+
+#: inc/customizer/options/blog--archive.php:53
+msgid "Pagination (page numbers)"
+msgstr "Pagination (numéros de pages)"
+
+#: inc/customizer/options/blog--archive.php:52
+msgid "Prev / Next buttons"
+msgstr "Boutons Précédent/Suivant"
+
+#: inc/customizer/options/blog--archive.php:50
+msgid "Navigation mode"
+msgstr "Mode de navigation"
+
+#: inc/customizer/options/blog--archive.php:34
+msgid "Grid"
+msgstr "Grille"
+
+#: inc/customizer/options/blog--archive.php:27
+msgid "Posts layout"
+msgstr "Mise en page des articles"
+
+#: inc/customizer/options/blog--archive.php:85
+#: inc/customizer/options/_sections.php:461
+msgid "Post Layout: Grid"
+msgstr "Mise en page de publication : grille"
+
+#: inc/customizer/options/blog--archive.php:77
+#: inc/customizer/options/_sections.php:454
+msgid "Post Layout: Default"
+msgstr "Mise en page de publication : par défaut"
+
+#: inc/customizer/options/_sections.php:441
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer/options/_sections.php:389
+msgid "Element: Copyright"
+msgstr "Élément : Copyright"
+
+#: inc/customizer/options/_sections.php:369
+msgid "Widgets Bar"
+msgstr "Barre de widgets"
+
+#: inc/customizer/options/footer--builder.php:21
+#: inc/customizer/options/_sections.php:356 inc/helpers.php:526
+msgid "Footer Builder"
+msgstr "Constructeur de pied de page"
+
+#: inc/customizer/options/_sections.php:342
+msgid "Sidebar Area"
+msgstr "Zone de colonne latérale"
+
+#: inc/customizer/options/_sections.php:335
+msgid "Main Content Area"
+msgstr "Zone de contenu principal"
+
+#: inc/customizer/options/content--section.php:26
+#: inc/customizer/options/_sections.php:322
+msgid "Content Section"
+msgstr "Section contenu"
+
+#: inc/customizer/options/_sections.php:298
+msgctxt "Suki Pro upsell"
+msgid "Alternate Header Colors"
+msgstr "Couleurs d’en-tête alternatif"
+
+#: inc/customizer/options/_sections.php:299
+msgctxt "Suki Pro upsell"
+msgid "Sticky Header"
+msgstr "En-tête fixe"
+
+#: inc/customizer/options/_sections.php:297
+msgctxt "Suki Pro upsell"
+msgid "Transparent Header"
+msgstr "En-tête transparent"
+
+#: inc/customizer/options/_sections.php:295
+msgctxt "Suki Pro upsell"
+msgid "More Header Elements"
+msgstr "Plus d’éléments d’en-tête"
+
+#: inc/customizer/options/_sections.php:271
+#: inc/customizer/options/_sections.php:396
+msgid "Element: Social"
+msgstr "Élément : social"
+
+#: inc/customizer/options/_sections.php:257
+msgid "Element: HTML(s)"
+msgstr "Élément : HTML(s)"
+
+#: inc/customizer/options/_sections.php:250
+msgid "Element: Search"
+msgstr "Élément : recherche"
+
+#: inc/customizer/options/_sections.php:243
+msgid "Element: Logo"
+msgstr "Élément : logo"
+
+#: inc/customizer/options/_sections.php:230
+msgid "Mobile Drawer (Popup)"
+msgstr "Tiroir mobile (fenêtre surgissante)"
+
+#: inc/customizer/options/_sections.php:223
+msgid "Mobile Main Bar"
+msgstr "Barre principale mobile"
+
+#: inc/customizer/options/_sections.php:210
+#: inc/customizer/options/_sections.php:376
+msgid "Bottom Bar"
+msgstr "Barre inférieure"
+
+#: inc/customizer/options/_sections.php:203
+msgid "Main Bar"
+msgstr "Barre principale"
+
+#: inc/customizer/options/_sections.php:196
+msgid "Top Bar"
+msgstr "Barre supérieure"
+
+#: inc/customizer/options/header--builder.php:31
+#: inc/customizer/options/_sections.php:183
+msgid "Header Builder"
+msgstr "Constructeur d’en-tête"
+
+#: inc/customizer/options/_sections.php:157
+msgid "Page Canvas & Wrapper"
+msgstr "Page canevas & enveloppe"
+
+#: inc/customizer/options/_sections.php:150
+msgid "Used on Post meta, Widget meta, Comments meta, and other small info text."
+msgstr "Utilisé sur les métas de publication, les métas de widget, les métas de commentaire et d’autres petits textes d’information."
+
+#: inc/customizer/options/_sections.php:149
+msgid "Meta Info"
+msgstr "Infos de méta"
+
+#: inc/customizer/options/_sections.php:142
+msgid "Used on Grid Post title, and other subsidiary headings like \"Leave a Reply\", \"2 Comments\", etc. By default, it uses H3 styles."
+msgstr "Utilisé sur le titre de la grille, ainsi que sur d’autres titres annexes tels que « Laisser un commentaire », « 2 commentaires », etc. Il utilise par défaut les styles H3."
+
+#: inc/customizer/options/_sections.php:141
+msgid "Small Title"
+msgstr "Petit titre"
+
+#: inc/customizer/options/_sections.php:134
+msgid "Used on Default Post title and Static Page title. By default, it uses H1 styles."
+msgstr "Utilisé par défaut pour les titres de publication et de page statique. Par défaut, il utilise les styles H1."
+
+#: inc/customizer/options/blog--entry-default.php:107
+#: inc/customizer/options/_sections.php:133
+#: inc/customizer/options/blog--entry-grid.php:235
+msgid "Title"
+msgstr "Titre"
+
+#: inc/customizer/options/blog--entry-default.php:193
+#: inc/customizer/options/_sections.php:126
+#: inc/customizer/options/blog--entry-grid.php:321
+msgid "Button"
+msgstr "Bouton"
+
+#: inc/customizer/options/_sections.php:119
+msgid "Form Input"
+msgstr "Entrée de formulaire"
+
+#: inc/customizer/options/_sections.php:112
+msgid "Blockquote"
+msgstr "Bloc de citation"
+
+#: inc/customizer/options/_sections.php:105
+msgid "Used on all H1 - H4 tags globally."
+msgstr "Utilisé sur toutes les balises H1 - H4 globalement."
+
+#: inc/customizer/options/_sections.php:104
+msgid "Headings (H1 - H4)"
+msgstr "Titres (H1 - H4)"
+
+#: inc/customizer/options/_sections.php:83
+msgid "The global settings of body typography and colors."
+msgstr "Les réglages globaux de la typographie du corps et des couleurs."
+
+#: inc/customizer/options/content--main.php:87
+#: inc/customizer/options/_sections.php:82
+msgid "Body (Base)"
+msgstr "Corps (base)"
+
+#: inc/customizer/options/_sections.php:63
+msgid "Please use full URL format with http:// or https://"
+msgstr "Veuillez utiliser le format d’URL complet avec http:// ou https://"
+
+#: inc/customizer/options/_sections.php:62
+msgid "Social Media Links"
+msgstr "Liens des médias sociaux"
+
+#: inc/customizer/options/_sections.php:55 inc/helpers.php:567
+msgid "Google Fonts"
+msgstr "Polices Google"
+
+#: inc/customizer/options/footer--social.php:27
+#: inc/customizer/options/header--social.php:27
+#: inc/customizer/options/_sections.php:28
+msgid "Global Settings"
+msgstr "Réglages globaux"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:223
+msgid "Capitalize"
+msgstr "Mettre en majuscule"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:222
+msgid "Lowercase"
+msgstr "Minuscules"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:221
+msgid "Uppercase"
+msgstr "Majuscules"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:220
+#: inc/customizer/options/content--sidebar.php:316
+#: inc/customizer/options/blog--entry-default.php:191
+#: inc/customizer/options/footer--widgets-bar.php:241
+#: inc/customizer/options/header--top-main-bottom-bar.php:366
+#: inc/customizer/options/blog--entry-grid.php:319
+msgid "None"
+msgstr "Aucun"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:217
+msgid "Italic"
+msgstr "Italique"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:216
+#: inc/customizer/options/content--section.php:43
+#: inc/customizer/options/footer--widgets-bar.php:31
+#: inc/customizer/options/page-header.php:147
+#: inc/customizer/options/header--top-main-bottom-bar.php:76
+#: inc/customizer/options/page-settings.php:63
+#: inc/customizer/options/footer--bottom-bar.php:69
+#: inc/admin/class-suki-admin-metabox-page-settings.php:487
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:213
+msgid "Black"
+msgstr "Noir"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:212
+msgid "Extra Bold"
+msgstr "Très gras"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:211
+msgid "Bold"
+msgstr "Gras"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:210
+msgid "Semi Bold"
+msgstr "Semi gras"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:209
+msgid "Medium"
+msgstr "Moyen"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:208
+msgid "Regular"
+msgstr "Régulier"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:207
+msgid "Light"
+msgstr "Léger"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:206
+msgid "Extra Light"
+msgstr "Très léger"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:205
+msgid "Thin"
+msgstr "Fin"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:38
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:38
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:128
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:147
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:164
+#: inc/customizer/options/blog--archive.php:30
+#: inc/customizer/options/page-container.php:235
+msgid "Default"
+msgstr "Par défaut"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:100
+msgid "Spacing"
+msgstr "Espacement"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:99
+msgid "Line Height"
+msgstr "Hauteur de ligne"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:98
+msgid "Size"
+msgstr "Dimension"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:97
+msgid "Transform"
+msgstr "Transformer"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:96
+msgid "Style"
+msgstr "Style"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:95
+msgid "Weight"
+msgstr "Graisse"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:94
+msgid "Font"
+msgstr "Police"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:109
+msgid "Color"
+msgstr "Couleur"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:77
+msgid "Spread"
+msgstr "Propagation"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:76
+msgid "Blur"
+msgstr "Flou"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:75
+msgid "V-Offset"
+msgstr "Décalage-V"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:74
+msgid "H-Offset"
+msgstr "Décalage-H"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:498
+#: inc/customizer/custom-controls/class-suki-customize-section-pro-teaser.php:51
+#: inc/customizer/custom-controls/class-suki-customize-control-pro-teaser.php:39
+#: inc/admin/class-suki-admin-metabox-page-settings.php:401
+#: inc/admin/class-suki-admin-metabox-page-settings.php:648
+#: inc/admin/class-suki-admin-metabox-page-settings.php:658
+msgctxt "Suki Pro upsell"
+msgid "Learn More"
+msgstr "En apprendre plus"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-builder.php:135
+msgid "Add element"
+msgstr "Ajouter un élément"
+
+#. translators: %s: post type's singular name.
+#: inc/customizer/class-suki-customizer.php:617
+msgid "Single %s Page"
+msgstr "Page unique de %s"
+
+#. translators: %s: post type's plural name.
+#: inc/customizer/class-suki-customizer.php:604
+msgid "%s Archive Page"
+msgstr "Page d’archive de %s"
+
+#: inc/customizer/class-suki-customizer.php:580
+msgid "404 Page"
+msgstr "Page 404"
+
+#: inc/customizer/class-suki-customizer.php:577
+msgid "Search Results Page"
+msgstr "Page des résultats de recherche"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:280
+msgctxt "Suki Pro upsell"
+msgid "More Gallery Layouts"
+msgstr "Plus de mises en page de galerie"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:237
+msgid "0 = disabled; -1 = show all."
+msgstr "0 = désactivé; -1 = tout afficher."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:236
+msgid "Max products shown"
+msgstr "Max produits affichés"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:223
+msgid "Display linked products and similar products within same categories or tags. Products that have been displayed on \"Up-sells\" section will not be included."
+msgstr "Afficher les produits liés et les produits similaires dans les mêmes catégories ou étiquettes. Les produits qui ont été affichés dans la section « Montée en gamme » ne seront pas inclus."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:222
+msgid "Show related products"
+msgstr "Afficher les produits similaires"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:210
+msgid "Related Products"
+msgstr "Produits similaires"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:188
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:254
+#: inc/customizer/options/blog--entry-grid.php:28
+msgid "Columns"
+msgstr "Colonnes"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:176
+msgid "Display up-sells as configured on Edit Product page > Product Data > Linked Products > Up-sells."
+msgstr "Afficher les montées en gamme telles que configurées dans la page Modifier produit > Données produit > Produits liés > Montée en gamme."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:175
+msgid "Show up-sells"
+msgstr "Afficher les montées en gamme"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:163
+msgid "Up-Sells"
+msgstr "Montées en gamme"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:148
+msgid "Show tabs"
+msgstr "Afficher les onglets"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:136
+msgid "Tabs"
+msgstr "Onglets"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:122
+msgid "Enable lightbox"
+msgstr "Activer la visionneuse"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:110
+msgid "Enable zoom"
+msgstr "Activer le zoom"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:86
+msgid "Gap with summary column"
+msgstr "Écart avec la colonne de résumé"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:66
+msgid "Gallery column Width"
+msgstr "Largeur de colonne de galerie"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:53
+msgid "Show gallery"
+msgstr "Afficher la galerie"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:41
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:27
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:92
+msgid "Show breadcrumb"
+msgstr "Afficher le fil d’Ariane"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:80
+msgid "Show page header title"
+msgstr "Afficher le titre de l’en-tête de page"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:53
+msgid "Grid columns"
+msgstr "Colonnes de la grille"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:37
+msgid "Empty / 0 = disabled; -1 = Show all."
+msgstr "Vide/0 = désactivé; -1 = tout afficher."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:36
+msgid "Max products per page"
+msgstr "Produits max par page"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:94
+#: inc/customizer/options/footer--scroll-to-top.php:243
+#: inc/customizer/options/general--buttons.php:119
+msgid "Text color :hover"
+msgstr "Couleur du texte : au survol"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:93
+#: inc/customizer/options/general--buttons.php:118
+msgid "Border color :hover"
+msgstr "Couleur de bordure : au survol"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:92
+#: inc/customizer/options/footer--scroll-to-top.php:242
+#: inc/customizer/options/general--buttons.php:117
+msgid "Background color :hover"
+msgstr "Couleur d’arrière-plan : au survol"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:91
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--store-notice.php:29
+#: inc/customizer/options/content--sidebar.php:341
+#: inc/customizer/options/general--form-inputs.php:116
+#: inc/customizer/options/footer--widgets-bar.php:266
+#: inc/customizer/options/footer--scroll-to-top.php:241
+#: inc/customizer/options/header--top-main-bottom-bar.php:300
+#: inc/customizer/options/general--buttons.php:116
+#: inc/customizer/options/general--base.php:69
+#: inc/customizer/options/footer--bottom-bar.php:222
+#: inc/customizer/options/header--mobile-vertical-bar.php:265
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:90
+#: inc/customizer/options/content--sidebar.php:340
+#: inc/customizer/options/general--form-inputs.php:115
+#: inc/customizer/options/footer--widgets-bar.php:265
+#: inc/customizer/options/page-header.php:307
+#: inc/customizer/options/header--mobile-main-bar.php:162
+#: inc/customizer/options/header--top-main-bottom-bar.php:299
+#: inc/customizer/options/general--buttons.php:115
+#: inc/customizer/options/footer--bottom-bar.php:221
+#: inc/customizer/options/header--mobile-vertical-bar.php:264
+#: inc/customizer/options/blog--entry-grid.php:420
+msgid "Border color"
+msgstr "Couleur de la bordure"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:89
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--store-notice.php:28
+#: inc/customizer/options/content--sidebar.php:339
+#: inc/customizer/options/general--form-inputs.php:114
+#: inc/customizer/options/footer--widgets-bar.php:264
+#: inc/customizer/options/footer--scroll-to-top.php:240
+#: inc/customizer/options/page-header.php:306
+#: inc/customizer/options/header--mobile-main-bar.php:161
+#: inc/customizer/options/header--top-main-bottom-bar.php:298
+#: inc/customizer/options/general--buttons.php:114
+#: inc/customizer/options/footer--bottom-bar.php:220
+#: inc/customizer/options/header--mobile-vertical-bar.php:263
+#: inc/customizer/options/blog--entry-grid.php:419
+msgid "Background color"
+msgstr "Couleur de l’arrière-plan"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:83
+msgid "Used in single product \"Add to Cart\" and Checkout page."
+msgstr "Utilisé dans « Ajouter au panier » de produit unique et la page de validation de commande."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:82
+msgid "Alt Button"
+msgstr "Bouton alt"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:68
+msgid "Rating (&#9733;) color"
+msgstr "Couleur de la note (&#9733 ;)"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:55
+msgid "Review star"
+msgstr "Étoile d’évaluation"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:30
+msgid "Badge text color"
+msgstr "Couleur du texte de badge"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:29
+msgid "Badge background color"
+msgstr "Couleur d’arrière-plan de badge"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:23
+msgid "Sale badge"
+msgstr "Badge en promo"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:23
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:35
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:23
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:23
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:35
+#: inc/customizer/options/content--sidebar.php:23
+#: inc/customizer/options/content--section.php:40
+#: inc/customizer/options/footer--widgets-bar.php:28
+#: inc/customizer/options/page-header.php:131
+#: inc/customizer/options/page-header.php:144
+#: inc/customizer/options/header--top-main-bottom-bar.php:73
+#: inc/customizer/options/page-settings.php:56
+#: inc/customizer/options/footer--bottom-bar.php:66
+msgid "Layout"
+msgstr "Mise en page"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:77
+msgid "Cross-sells grid columns"
+msgstr "Colonnes de grille de ventes croisées"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:65
+msgid "Display cross-sells as configured on Edit Product page > Product Data > Linked Products > Cross-sells."
+msgstr "Afficher les ventes croisées telles que configurées dans la page Modifier produit > Données produit > Produits liés > Ventes croisées."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:64
+msgid "Show cross-sells"
+msgstr "Afficher les ventes croisées"
+
+#: inc/customizer/options/header--builder.php:74
+msgid "Cart Dropdown"
+msgstr "Panier déroulant"
+
+#: inc/customizer/options/header--builder.php:73
+#: inc/customizer/options/header--builder.php:116
+msgid "Cart Link"
+msgstr "Lien du panier"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:64
+msgid "Other Elements"
+msgstr "Autres éléments"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:57
+msgid "Global styles for products grid as used in main product catalog page, related products, up-sells, cross-sells, and products shortcodes."
+msgstr "Styles globaux pour la grille des produits tels qu’ils sont utilisés dans la page principale du catalogue de produits, les produits similaires, les montées en gamme, les ventes croisées et les codes courts de produits."
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:56
+msgid "Products Grid"
+msgstr "Grille de produits"
+
+#: template-parts/header-element-shopping-cart-dropdown.php:44
+#: template-parts/header-element-shopping-cart-link.php:31
+msgid "Shopping Cart"
+msgstr "Panier d’achat"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:181
+msgid "Sidebar Shop"
+msgstr "Colonne latérale de la boutique"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:47
+#: inc/customizer/options/footer--widgets-bar.php:109
+#: inc/customizer/options/blog--entry-grid.php:74
+msgid "Columns gutter"
+msgstr "Gouttière de colonnes"
+
+#. translators: %s: footer widgets column number.
+#: inc/class-suki.php:315
+msgid "Footer Widgets Column %s"
+msgstr "Colonne de widgets de pied de page %s"
+
+#: inc/class-suki.php:304
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: inc/class-suki.php:234
+msgid "Footer Bottom Menu"
+msgstr "Menu inférieur du pied de page"
+
+#: template-parts/header-element-mobile-menu.php:16 inc/class-suki.php:233
+msgid "Mobile Header Menu"
+msgstr "Menu d’en-tête mobile"
+
+#: inc/admin/class-suki-admin.php:804
+msgid "Rate Us &#9733;&#9733;&#9733;&#9733;&#9733;"
+msgstr "Évaluez-nous &#9733;&#9733;&#9733;&#9733;&#9733;&#9733;&#9733 ;"
+
+#: inc/admin/class-suki-admin.php:786
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/customizer/options/page-settings.php:396
+#: inc/admin/class-suki-admin-metabox-page-settings.php:623
+msgid "Disable footer bottom"
+msgstr "Désactiver le pied de page inférieur"
+
+#: inc/customizer/options/page-settings.php:383
+#: inc/admin/class-suki-admin-metabox-page-settings.php:604
+msgid "Disable footer widgets"
+msgstr "Désactiver les widgets du pied de page"
+
+#: inc/customizer/options/page-settings.php:140
+#: inc/admin/class-suki-admin-metabox-page-settings.php:579
+msgid "Hide featured image"
+msgstr "Masquer l’image mise en avant"
+
+#: inc/customizer/options/page-settings.php:127
+#: inc/admin/class-suki-admin-metabox-page-settings.php:560
+msgid "Hide post title"
+msgstr "Masquer le titre de la publication"
+
+#: inc/customizer/options/content--section.php:81
+#: inc/customizer/options/content--section.php:85
+#: inc/customizer/options/page-settings.php:98
+#: inc/customizer/options/page-settings.php:102
+#: inc/admin/class-suki-admin-metabox-page-settings.php:526
+#: inc/admin/class-suki-admin-metabox-page-settings.php:530
+msgid "Left sidebar"
+msgstr "Colonne latérale gauche"
+
+#: inc/customizer/options/content--section.php:81
+#: inc/customizer/options/content--section.php:85
+#: inc/customizer/options/page-settings.php:98
+#: inc/customizer/options/page-settings.php:102
+#: inc/admin/class-suki-admin-metabox-page-settings.php:526
+#: inc/admin/class-suki-admin-metabox-page-settings.php:530
+msgid "Right sidebar"
+msgstr "Colonne latérale droite"
+
+#: inc/customizer/options/content--section.php:70
+#: inc/customizer/options/page-settings.php:83
+#: inc/admin/class-suki-admin-metabox-page-settings.php:505
+msgid "Content & sidebar layout"
+msgstr "Mise en page du contenu & de la colonne latérale"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:474
+msgid "Content container"
+msgstr "Conteneur de contenu"
+
+#: inc/customizer/options/blog--entry-default.php:65
+#: inc/customizer/options/blog--entry-grid.php:193
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: inc/customizer/options/page-settings.php:209
+#: inc/admin/class-suki-admin-metabox-page-settings.php:409
+msgid "Page header"
+msgstr "En-tête de page"
+
+#: inc/customizer/options/page-settings.php:181
+#: inc/admin/class-suki-admin-metabox-page-settings.php:377
+msgid "Disable mobile header"
+msgstr "Désactiver l’en-tête mobile"
+
+#: inc/customizer/options/page-settings.php:168
+msgid "Disable main header"
+msgstr "Désactiver l’en-tête principal"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:456
+#: inc/admin/class-suki-admin-metabox-page-settings.php:227
+msgid "Edit Page settings here"
+msgstr "Modifiez ici les réglages de la page"
+
+#: inc/customizer/options/_sections.php:350
+#: inc/customizer/options/page-settings.php:370
+#: inc/admin/class-suki-admin-metabox-page-settings.php:68
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/customizer/options/_sections.php:176
+#: inc/customizer/options/page-settings.php:155
+#: inc/admin/class-suki-admin-metabox-page-settings.php:66
+msgid "Header"
+msgstr "En-tête"
+
+#: inc/customizer/options/_sections.php:316
+#: inc/customizer/options/page-settings.php:43
+#: inc/admin/class-suki-admin-metabox-page-settings.php:65
+msgid "Content & Sidebar"
+msgstr "Contenu & colonne latérale"
+
+#: inc/admin/class-suki-admin-fields.php:253
+msgid "Choose"
+msgstr "Choisir"
+
+#: inc/admin/class-suki-admin-fields.php:252
+msgid "Upload & choose file"
+msgstr "Téléverser & choisir le fichier"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:113
+#: inc/customizer/custom-controls/class-suki-customize-control-color.php:79
+#: inc/admin/class-suki-admin-fields.php:211
+msgid "Hex / RGBA"
+msgstr "Hex/RGBA"
+
+#: 404.php:32
+msgid "It looks like nothing was found at this location. Maybe try searching?"
+msgstr "On dirait que rien n'a été trouvé à cet emplacement. Essayez peut-être une recherche ?"
+
+#: 404.php:31
+msgid "Page Not Found"
+msgstr "Page non trouvée"
+
+#. Author of the theme
+msgid "Suki WordPress Theme"
+msgstr "Thème WordPress Suki"
+
+#. Author URI of the theme
+msgid "https://sukiwp.com/#about"
+msgstr "https://sukiwp.com/#about"
+
+#. Theme URI of the theme
+msgid "https://sukiwp.com/"
+msgstr "https://sukiwp.com/"
