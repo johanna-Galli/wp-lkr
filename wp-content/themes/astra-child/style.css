@@ -1,0 +1,113 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 3.3.3.1620043641
+Updated: 2021-05-03 14:07:21
+
+*/
+
+
+
+
+
+
+/********************************************************************/
+/*all*/
+/********************************************************************/
+
+/*BUG theme enfant sur header*/
+.ast-theme-transparent-header #ast-desktop-header > [CLASS*="-header-wrap"]:last-child > [CLASS*="-header-bar"], .ast-theme-transparent-header.ast-header-break-point #ast-mobile-header > [CLASS*="-header-wrap"]:nth-last-child(2) > [CLASS*="-header-bar"] {
+    border-bottom-width: 0;
+}
+
+/*navbar fixed*/
+#masthead {
+    position: fixed !important;
+    width: 100% !important;
+    background-color: #101010;
+}
+
+/*sous menu couleur*/
+@media screen and (min-width: 922px) {
+    .sub-menu {
+    background-color:  #101010 !important;
+    }
+}
+
+/********************************************************************/
+/*page accueil */
+/********************************************************************/
+
+/********************************************************************/
+/*page a propos*/
+/********************************************************************/
+
+/*carousel costumes*/
+.elementor-394 .elementor-element.elementor-element-a8bd133 {
+    width: 100% !important;
+}
+
+/*bouton call to action dans la section réseaux sociaux*/
+.eael-call-to-action a {
+    display: none !important;
+}
+
+/*padding inutile qui bloque width 100%*/
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0 !important;
+}
+
+
+/********************************************************************/
+/*page membres*/
+/********************************************************************/
+
+.bouton-membres {
+    width: 350px !important;
+}
+.bouton-membres a {
+    width: 100% !important;
+}
+
+/********************************************************************/
+/*page actualités*/
+/********************************************************************/
+
+/*navbar*/
+.ast-primary-header-bar .ast-primary-header .main-header-bar .site-header-focus-item {
+    background-color:  #101010 !important;
+}
+/*les articles*/
+.post {
+    background-color: #101010 !important;
+    border-radius: 30px;
+    padding: 40px !important;
+}
+
+/*colone de droite*/
+.ast-separate-container.ast-two-container #secondary .widget {
+    background-color: #101010 !important;
+}
+
+.ast-right-sidebar #secondary {
+    border-left: 0px !important;
+}
+
+/*input rechercher*/
+.ast-archive-description {
+    background-color: #101010 !important;
+}
+
+.page {
+    background-color: #101010 !important;
+}
+
+/*select catégories*/
+#cat {
+    background-color: #101010 !important;
+}

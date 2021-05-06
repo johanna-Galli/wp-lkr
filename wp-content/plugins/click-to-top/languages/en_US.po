@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: click to top\n"
+"POT-Creation-Date: 2016-03-23 17:18+0600\n"
+"PO-Revision-Date: 2016-03-23 17:18+0600\n"
+"Last-Translator: \n"
+"Language-Team: click <nnalam50@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/click_top_options.php:33 admin/click_top_options.php:34
+msgid "Click to top"
+msgstr ""
+
+#: admin/click_top_options.php:45
+msgid "Basic Settings"
+msgstr ""
+
+#: admin/click_top_options.php:49
+msgid "Scroll style Settings"
+msgstr ""
+
+#: admin/click_top_options.php:66
+msgid "Scroll show distance"
+msgstr ""
+
+#: admin/click_top_options.php:67
+msgid "Distance from top/bottom before showing element (px)"
+msgstr ""
+
+#: admin/click_top_options.php:75
+msgid "Set scroll speed"
+msgstr ""
+
+#: admin/click_top_options.php:76
+msgid "Speed back to top (ms)"
+msgstr ""
+
+#: admin/click_top_options.php:83
+msgid "Select your easing type"
+msgstr ""
+
+#: admin/click_top_options.php:84
+msgid "Scroll to top easing style set as you choice"
+msgstr ""
+
+#: admin/click_top_options.php:123
+msgid "Select animation"
+msgstr ""
+
+#: admin/click_top_options.php:124
+msgid "Select animation in this box."
+msgstr ""
+
+#: admin/click_top_options.php:128
+msgid "Fade"
+msgstr ""
+
+#: admin/click_top_options.php:129
+msgid "slide"
+msgstr ""
+
+#: admin/click_top_options.php:130
+msgid "none"
+msgstr ""
+
+#: admin/click_top_options.php:135
+msgid "Set Animation speed"
+msgstr ""
+
+#: admin/click_top_options.php:136
+msgid "Set Animation speed by (ms)"
+msgstr ""
+
+#: admin/click_top_options.php:143
+msgid "scroll position"
+msgstr ""
+
+#: admin/click_top_options.php:144
+msgid "Select scroll position left or right."
+msgstr ""
+
+#: admin/click_top_options.php:148
+msgid "Left side"
+msgstr ""
+
+#: admin/click_top_options.php:149
+msgid "Right side"
+msgstr ""
+
+#: admin/click_top_options.php:154
+msgid "Set selected position margin"
+msgstr ""
+
+#: admin/click_top_options.php:155
+msgid ""
+"If you select right side set right side margin and if you select left side "
+"set left side margin by %.Set 0 to 5 for better view.default is 5"
+msgstr ""
+
+#: admin/click_top_options.php:162
+msgid "Bottom position"
+msgstr ""
+
+#: admin/click_top_options.php:163
+msgid "Set scroll bottom position by %.Set 0 to 5 for better view.default is 5"
+msgstr ""
+
+#: admin/click_top_options.php:174
+msgid "Select scroll button style"
+msgstr ""
+
+#: admin/click_top_options.php:175
+msgid "Select scroll button style square or round."
+msgstr ""
+
+#: admin/click_top_options.php:179
+msgid "Square"
+msgstr ""
+
+#: admin/click_top_options.php:180
+msgid "Round"
+msgstr ""
+
+#: admin/click_top_options.php:185
+msgid "Select scroll hover style."
+msgstr ""
+
+#: admin/click_top_options.php:186
+msgid "Select scroll hover style on your choice."
+msgstr ""
+
+#: admin/click_top_options.php:251
+msgid "Select scroll button type"
+msgstr ""
+
+#: admin/click_top_options.php:252
+msgid "Select scroll button type text or icon."
+msgstr ""
+
+#: admin/click_top_options.php:256
+msgid "Icon"
+msgstr ""
+
+#: admin/click_top_options.php:257
+msgid "Text"
+msgstr ""
+
+#: admin/click_top_options.php:262
+msgid "Select scroll icon"
+msgstr ""
+
+#: admin/click_top_options.php:263
+msgid "First select button type icon then choice icon."
+msgstr ""
+
+#: admin/click_top_options.php:284
+msgid "Type scroll text"
+msgstr ""
+
+#: admin/click_top_options.php:285
+msgid "First select button type text then type your text."
+msgstr ""
+
+#: admin/click_top_options.php:292
+msgid "Set background color"
+msgstr ""
+
+#: admin/click_top_options.php:293
+msgid "Set scroll background color."
+msgstr ""
+
+#: admin/click_top_options.php:300
+msgid "Set icon or text color"
+msgstr ""
+
+#: admin/click_top_options.php:301
+msgid "Set color text or icon, whatever you select."
+msgstr ""
+
+#: admin/click_top_options.php:308
+msgid "Set scroll background hover color"
+msgstr ""
+
+#: admin/click_top_options.php:309
+msgid "Set scroll background hover color."
+msgstr ""
+
+#: admin/click_top_options.php:316
+msgid "Set icon or text hover color"
+msgstr ""
+
+#: admin/click_top_options.php:317
+msgid "Set scroll selected hover color."
+msgstr ""
+
+#: admin/click_top_options.php:324
+msgid "Set scroll opacity"
+msgstr ""
+
+#: admin/click_top_options.php:325
+msgid "Set scroll opacity by 1 to 99.default is 99"
+msgstr ""
+
+#: admin/click_top_options.php:332
+msgid "Set scroll padding"
+msgstr ""
+
+#: admin/click_top_options.php:333
+msgid "Set scroll padding by px."
+msgstr ""
+
+#: admin/click_top_options.php:340
+msgid "Set scroll font size"
+msgstr ""
+
+#: admin/click_top_options.php:341
+msgid "Set scroll font size by px."
+msgstr ""
+
+#: admin/click_top_options.php:353
+msgid "Click to top settings"
+msgstr ""
+
+#: admin/src/class.settings-api.php:347
+msgid "Choose File"
+msgstr ""
