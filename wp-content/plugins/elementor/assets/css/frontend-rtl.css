@@ -1,4 +1,4 @@
-/*! elementor - v3.2.2 - 26-04-2021 */
+/*! elementor - v3.2.3 - 05-05-2021 */
 .dialog-widget-content {
   background-color: #fff;
   position: absolute;
@@ -1059,13 +1059,6 @@ ul.elementor-icon-list-items.elementor-inline-items {
 @media (max-width: 767px) {
   #elementor-device-mode:after {
     content: 'mobile'; } }
-
-@font-face {
-  font-family: 'eicons';
-  src: url("../lib/eicons/fonts/eicons.eot?5.10.0");
-  src: url("../lib/eicons/fonts/eicons.eot?5.10.0#iefix") format("embedded-opentype"), url("../lib/eicons/fonts/eicons.woff2?5.10.0") format("woff2"), url("../lib/eicons/fonts/eicons.woff?5.10.0") format("woff"), url("../lib/eicons/fonts/eicons.ttf?5.10.0") format("truetype"), url("../lib/eicons/fonts/eicons.svg?5.10.0#eicon") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 
 [class^="eicon"],
 [class*=" eicon-"] {
