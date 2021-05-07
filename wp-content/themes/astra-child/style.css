@@ -39,16 +39,6 @@ Updated: 2021-05-03 14:07:21
 /*page accueil */
 /********************************************************************/
 
-
-/********************************************************************/
-/*page a propos*/
-/********************************************************************/
-
-/*carousel costumes*/
-.elementor-394 .elementor-element.elementor-element-a8bd133 {
-    width: 100% !important;
-}
-
 /*bouton call to action dans la section réseaux sociaux*/
 .eael-call-to-action a {
     display: none !important;
@@ -57,6 +47,15 @@ Updated: 2021-05-03 14:07:21
 /*padding inutile qui bloque width 100%*/
 .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
     padding: 0 !important;
+}
+
+/********************************************************************/
+/*page a propos*/
+/********************************************************************/
+
+/*carousel costumes*/
+.elementor-394 .elementor-element.elementor-element-a8bd133 {
+    width: 100% !important;
 }
 
 
@@ -82,7 +81,6 @@ Updated: 2021-05-03 14:07:21
 /*les articles*/
 .post {
     background-color: #101010 !important;
-    border-radius: 30px;
     padding: 40px !important;
 }
 
