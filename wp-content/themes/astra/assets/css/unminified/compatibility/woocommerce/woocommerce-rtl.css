@@ -509,6 +509,10 @@ p.demo_store a,
   display: inline-block;
 }
 
+.ast-header-break-point.ast-hfb-header.ast-woocommerce-cart-menu .ast-site-header-cart {
+  padding: 0;
+}
+
 /**
  * Main WooCommerce styles
  */

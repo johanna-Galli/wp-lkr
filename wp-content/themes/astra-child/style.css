@@ -17,8 +17,8 @@ Updated: 2021-05-03 14:07:21
 /********************************************************************/
 
 /*BUG theme enfant sur header*/
-.ast-theme-transparent-header #ast-desktop-header > [CLASS*="-header-wrap"]:last-child > [CLASS*="-header-bar"], .ast-theme-transparent-header.ast-header-break-point #ast-mobile-header > [CLASS*="-header-wrap"]:nth-last-child(2) > [CLASS*="-header-bar"] {
-    border-bottom-width: 0;
+.ast-theme-transparent-header #ast-desktop-header > [CLASS*="-header-wrap"]:last-child > [CLASS*="-header-bar"], .ast-theme-transparent-header.ast-header-break-point #ast-mobile-header > [CLASS*="-header-wrap"]:last-child > [CLASS*="-header-bar"] {
+    border-bottom-width: 0 !important;
 }
 
 /*navbar fixed*/
@@ -105,4 +105,54 @@ Updated: 2021-05-03 14:07:21
 /*select catégories*/
 #cat {
     background-color: #101010 !important;
+}
+
+/********************************************************************/
+/*page agenda*/
+/********************************************************************/
+
+/*bouton vue au jour*/
+.fc-timeGridDay-button {
+    display: none !important;
+}
+/*bouton vue a la semaine*/
+.fc-timeGridWeek-button {
+    display: none !important;
+}
+/*case evenement*/
+.fc-event-container {
+    background-color: rgb(107, 107, 107) !important;
+}
+/*hauteur popup*/
+.eaelec-modal-body {
+    height: auto !important;
+}
+
+/********************************************************************/
+/*page d'evenement*/
+/********************************************************************/
+
+/*evenement unique*/
+.ast-article-single {
+    background-color: #101010 !important;
+}
+/*couleur du titre*/
+.tribe-events-pg-template h1 {
+    color: #E4CB86 !important;
+}
+/*couleur des liens*/
+.ast-article-single a {
+    color: #E4CB86 !important;
+}
+/*couleur des titres*/
+.tribe-events-pg-template h2 {
+    color: rgb(255, 255, 255) !important;
+}
+/*couleur des labels*/
+.tribe-events-pg-template dt {
+    color: rgb(255, 255, 255) !important;
+}
+/*couleur des infos*/
+.tribe-events-pg-template dd {
+    color: rgb(172, 172, 172) !important;
 }

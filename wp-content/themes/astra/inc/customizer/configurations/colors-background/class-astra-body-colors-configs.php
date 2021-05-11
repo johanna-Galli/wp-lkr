@@ -30,7 +30,7 @@ if ( ! class_exists( 'Astra_Body_Colors_Configs' ) ) {
 		 */
 		public function register_configuration( $configurations, $wp_customize ) {
 
-			$_section = defined( 'ASTRA_EXT_VER' ) ? 'section-colors-body' : 'section-colors-background';
+			$_section = ( defined( 'ASTRA_EXT_VER' ) && Astra_Ext_Extension::is_active( 'colors-and-background' ) ) ? 'section-colors-body' : 'section-colors-background';
 
 			$_configs = array(
 

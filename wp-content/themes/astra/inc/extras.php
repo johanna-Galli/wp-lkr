@@ -536,3 +536,21 @@ function astra_markup_close( $context, $args = array() ) {
 	}
 	return false;
 }
+
+/**
+ * Provision to update display rules for visibility of Related Posts section in Astra.
+ *
+ * @since 3.4.0
+ * @return bool
+ */
+function astra_target_rules_for_related_posts() {
+
+	$allow_related_posts = false;
+	$supported_post_type = apply_filters( 'astra_related_posts_supported_post_types', 'post' );
+
+	if ( astra_get_option( 'enable-related-posts' ) && is_singular( $supported_post_type ) ) {
+		$allow_related_posts = true;
+	}
+
+	return apply_filters( 'astra_showcase_related_posts', $allow_related_posts );
+}

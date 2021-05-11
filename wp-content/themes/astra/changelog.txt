@@ -1,3 +1,45 @@
+v3.4.2
+- Fix: JS console error when Off-canvas type 'Dropdown' is selected.
+- Fix: Dropdown does not close when you click a one page navigation link inside them.
+- Fix: Zero value not accepting in slider customizer settings.
+- Fix: Existing comments are not styled when post comments are disabled.
+- Fix: Gutenberg editor getting Grey overlay when layout is Full-width Contained or Full-width Stretched.
+
+v3.4.1
+- Fix: Off-canvas - Mobile - Left aligned flyout style not working.
+- Fix: Mobile Menu hides when menu item having hash(#) link is clicked.
+
+v3.4.0
+- New: 'Related Posts' feature for single post layout. (https://wpastra.com/docs/display-related-posts/)
+- Improvement: Customizer - Reduce one click in Global Colors section by popping out Base Colors into parent section.
+- Improvement: Gutenberg Editor - Compatibility with Starter Templates Blocks design in editor. (https://wpastra.com/docs/fix-spacing-gb-blocks/)
+- Improvement: Update toolset-config.json towards Toolset 1.5 compatibility. (Props - https://github.com/decodekult)
+- Improvement: Frontend optimization by reducing one request for Menu animation CSS in default theme though option is available to add menu animation.
+- Improvement: Frontend optimization by replacing Flyout Menu with Dropdown menu for default theme.
+- Fix: AMP - Mobile menu not working for AMP pages for the Header Footer builder.
+- Fix: Cart & Toggle Button elements are not aligned with each other on Mobile Devices.
+- Fix: Search Element alignment in Off-Canvas & Dropdown.
+- Fix: Builder - Menu - Submenu hover color from Transparent Header directly applying to nested sub-menu items without hovering them.
+- Fix: Search - Search Box opens & gets closed automatically on click of search icon in slide search style on mobile devices.
+- Fix: Customizer - Edit shortcut button design breaks when Elementor template kit is active on site.
+- Fix: Customizer - Maintained identical reset buttons UI in background control.
+- Fix: Builder - HTML - If element is used in Primary Header & line-height is blank in element then it's inheriting from Primary Header bar which is 3em.
+- Fix: Builder - Footer - Background Color picker popup cutting at it's edge in Footer Builder section.
+- Fix: Menu Hover/Active link not working in Customizer & Frontend for tablet & mobile.
+- Fix: Off-Canvas & Dropdown does not close when you click a one page navigation link inside them.
+- Fix: Gutenberg Editor - Unable to edit content in editor when background styles applied to Content and Site Layout is Max-Width.
+- Fix: Height of Mobile Header increases when we open Dropdown for Old Header.
+- Fix: Builder - Menu – After partial refresh megamenu's width & left position removes in customizer.
+- Fix: Transparent Header - Normal colors not working for transparent header if colors are not set from Transparent Header settings.
+- Fix: Container Width option hides in Container section when Astra Pro is active but all addons are deactivate.
+- Fix: Context Switch does not work if there are no elements in Primary Header for both Desktop & Mobile.
+- Fix: Deprecated the Cart Style 'None' & merged it with existing option 'Outline' for WooCommerce and EDD.
+- Fix: Accessibility - Tab navigation does not highlight menu with submenus.
+- Fix: JavaScript error when clicking on the Dropdown Toggle for Sticky Header on Mobile.
+- Fix: Scroll does not work in Off-Canvas.
+- Fix: Spacing not working properly for Social Element when 'Stack on' & 'Icon Spacing' options value is changed in Customizer Preview.
+- Fix: RTL WooCommerce Shop page - on Mobile Grid single column was appearing when two columns were set from the customizer setting for existing users.
+
 v3.3.3
 - Fix: Elementor - Theme Builder archive page contents are not aligned center.
 - Fix: Elementor - Elementor editor panel switches back to the main panel while using the responsive view.

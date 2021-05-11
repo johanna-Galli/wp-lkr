@@ -484,6 +484,18 @@
   width: 100%;
 }
 
+.customize-control-ast-color-group .ast-divider-title + .ast-control-wrap .ast-color-group-reset {
+  top: 47px;
+}
+
+.customize-control-ast-color-group .ast-divider-title + .ast-control-wrap .ast-responsive-btns {
+  top: 50px;
+}
+
+.customize-control-ast-color-group .ast-divider-title + .ast-control-wrap .astra-color-picker-wrap {
+  top: 73px;
+}
+
  /** Remove Button Color */
 
 .astra-control-field.astra-color-control {
@@ -759,7 +771,7 @@
 }
 .ast-field-settings-modal .astra-color-picker-wrap {
     position: relative;
-	top: 0;
+	top: 10px;
 }
 .components-circular-option-picker__option-wrapper .components-circular-option-picker__option:focus::after {
 	width: 27px;
@@ -783,6 +795,15 @@
 .astra-popover-tabs .ast-clear-btn-inside-picker.components-button {
 	margin: 5px 20px 20px 15px;
 	padding: 0 8px;
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+.ast-clear-btn-inside-picker.components-button:hover, .astra-popover-tabs .ast-clear-btn-inside-picker.components-button:hover,
+.ast-clear-btn-inside-picker.components-button:focus, .astra-popover-tabs .ast-clear-btn-inside-picker.components-button:focus,
+.ast-clear-btn-inside-picker.components-button:active, .astra-popover-tabs .ast-clear-btn-inside-picker.components-button:active,
+.astra-popover-tabs [ID*="-gradient-view"] .components-circular-option-picker__clear:active {
+    box-shadow: none !important;
+    background: transparent !important;
 }
 .ast-clear-btn-inside-picker {
 	padding: 0 8px;
@@ -958,7 +979,8 @@
 
 .ast-top-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
 .ast-top-divider.customize-control-ast-responsive-color .ast-divider-title + .ast-control-wrap,
-.ast-top-divider.customize-control-ast-slider .ast-divider-title + .ast-slider-wrap {
+.ast-top-divider.customize-control-ast-slider .ast-divider-title + .ast-slider-wrap,
+.customize-control-ast-color-group .ast-divider-title + .ast-control-wrap {
     margin-top: 25px;
 }
 
@@ -1208,7 +1230,8 @@ input[type="text"].select2-search__field {
 	padding-top: 25px;
 }
 
-.ast-top-divider > label.ast-divider-title {
+.ast-top-divider > label.ast-divider-title,
+.customize-control-ast-color-group > .ast-divider-title {
 	display: block;
 	width: 100%;
 	font-size: 15px;
@@ -1888,7 +1911,6 @@ input[type="text"].select2-search__field {
   border-style: solid;
   border-color: #ddd;
   border-radius: 0 2px 2px 0;
-  margin-left: 5px;
 }
 .customize-control-ast-slider .components-input-control__container, .customize-control-ast-responsive-slider .components-input-control__container {
 	margin-left: 5px;
@@ -2508,6 +2530,9 @@ input[type="text"].select2-search__field {
   margin-top: 0;
 }
 
+/*
+ * Divider compatibility CSS for setting group.
+ */
 .ast-top-divider.customize-control-ast-settings-group .ast-toggle-desc-wrap .ast-adv-toggle-icon {
     top: 23px;
 }

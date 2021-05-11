@@ -280,3 +280,22 @@ a.astra-starter-sites-detail-link {
     margin: 0.5em 0;
     padding: 2px;
 }
+
+/**
+ * Astra Other Links Postbox
+ */
+.postbox .inside .ast-other-links-list {
+    margin-bottom: 6px;
+}
+
+.ast-other-links-list li {
+    margin-bottom: 12px;
+}
+
+.ast-other-links-list li:last-child {
+    margin-bottom: 0;
+}
+
+.ast-other-links-list .dashicons {
+    margin-left: 6px;
+}

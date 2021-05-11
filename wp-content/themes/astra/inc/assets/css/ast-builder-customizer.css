@@ -655,7 +655,7 @@
 
 .ahfb-footer-builder-is-active .in-sub-panel:not(.section-open) ul#sub-accordion-section-section-footer-builder-layout, .ahfb-header-builder-is-active .in-sub-panel:not(.section-open) ul#sub-accordion-section-section-header-builder-layout {
     transform: none;
-    height: auto;
+    height: 100%;
     visibility: visible;
     top: 75px;
 }

@@ -140,7 +140,7 @@ class Astra_Social_Component_Dynamic_CSS {
 					'color'      => $social_icons_h_color_desktop,
 					'background' => $social_icons_h_bg_color_desktop,
 				);
-				
+
 				$css_output_desktop[ $selector . ' .ast-social-color-type-custom .ast-builder-social-element:hover svg' ] = array(
 					'fill' => $social_icons_h_color_desktop,
 				);
@@ -266,7 +266,7 @@ class Astra_Social_Component_Dynamic_CSS {
 				$tablet_alignment  = ( isset( $alignment['tablet'] ) ) ? $alignment['tablet'] : '';
 				$mobile_alignment  = ( isset( $alignment['mobile'] ) ) ? $alignment['mobile'] : '';
 
-				$css_output_desktop[ '[data-section="section-fb-social-icons-' . $index . '"] .footer-social-inner-wrap' ] = array( 
+				$css_output_desktop[ '[data-section="section-fb-social-icons-' . $index . '"] .footer-social-inner-wrap' ] = array(
 					'text-align' => $desktop_alignment,
 				);
 				$css_output_tablet[ '[data-section="section-fb-social-icons-' . $index . '"] .footer-social-inner-wrap' ]  = array(
@@ -299,7 +299,7 @@ class Astra_Social_Component_Dynamic_CSS {
 
 	/**
 	 * Load Social default css.
-	 * 
+	 *
 	 * @since 3.0.0
 	 */
 	public static function get_social_static_css() {
