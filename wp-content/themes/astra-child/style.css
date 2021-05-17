@@ -21,11 +21,16 @@ Updated: 2021-05-03 14:07:21
     border-bottom-width: 0 !important;
 }
 
+
 /*navbar fixed*/
 #masthead {
     position: fixed !important;
     width: 100% !important;
-    background-color: #101010;
+    background-color: #101010 !important;
+    z-index: 1000 !important;
+}
+.main-header-bar {
+    background-color: #101010 !important;
 }
 
 /*sous menu couleur*/
@@ -98,6 +103,19 @@ Updated: 2021-05-03 14:07:21
     background-color: #101010 !important;
 }
 
+/*taille image de mise en avant dans la page article*/
+.ast-article-post img {
+    height: 200px;
+    object-fit: cover;
+    width: 100% !important;
+}
+/*taille image de mise en avant dans la page DE L'article*/
+.ast-article-single img {
+    width: 100% ;
+    max-height: 512px;
+    object-fit: cover;
+}
+
 .page {
     background-color: #101010 !important;
 }
@@ -140,10 +158,10 @@ Updated: 2021-05-03 14:07:21
 .tribe-events-pg-template h1 {
     color: #E4CB86 !important;
 }
-/*couleur des liens*/
+/*couleur des liens
 .ast-article-single a {
     color: #E4CB86 !important;
-}
+}*/
 /*couleur des titres*/
 .tribe-events-pg-template h2 {
     color: rgb(255, 255, 255) !important;

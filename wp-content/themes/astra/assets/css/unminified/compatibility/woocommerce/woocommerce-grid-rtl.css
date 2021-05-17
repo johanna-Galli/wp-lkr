@@ -410,14 +410,14 @@ p.demo_store a,
 }
 
 .ast-woocommerce-cart-menu {
-  /** 
+  /**
 	 * Header layout 1
 	 * if no primary menu & no last items in menu
 	 */
-  /** 
+  /**
 	 * Header layout 3
 	 */
-  /** 
+  /**
 	 * Header layout 2
 	 */
 }
@@ -1284,7 +1284,7 @@ p.demo_store a,
   background-color: #77a464;
   color: white;
   -webkit-font-smoothing: antialiased;
-  z-index: 9;
+  z-index: 99;
 }
 
 .woocommerce .products ul,

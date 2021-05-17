@@ -1,3 +1,10 @@
+v3.4.3
+- Improvement: Builder - WooCommerce & EDD Cart - Compatibility with Border width option for cart outline style from Astra Pro. (https://wpastra.com/docs/remove-border-around-cart/)
+- Fix: Search widget not working inside menu on mobile devices.
+- Fix: Elementor popup close on click of input fields.
+- Fix: Page Builder's menu elements show double arrow icons when Astra's SVG icons are enabled.
+- Fix: WooCommerce - Shop Grid and Related Product's column layout not working for new users on responsive devices.
+
 v3.4.2
 - Fix: JS console error when Off-canvas type 'Dropdown' is selected.
 - Fix: Dropdown does not close when you click a one page navigation link inside them.

@@ -488,6 +488,28 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 		}
 
 		/**
+		 * Get grid columns for either Archive|Single product.
+		 * Introducing this function to reduce lot of CSS we write for 'grid-template-columns' for every count (till 6).
+		 *
+		 * @param string $type - WooCommerce page type Archive/Single.
+		 * @param string $device - Device specific grid option.
+		 * @param int    $default - Default grid count (fallback basically).
+		 *
+		 * @return int grid count.
+		 * @since 3.4.3
+		 */
+		public function get_grid_column_count( $type = 'archive', $device = 'desktop', $default = 2 ) {
+
+			if ( 'archive' === $type ) {
+				$products_grid = astra_get_option( 'shop-grids' );
+			} else {
+				$products_grid = astra_get_option( 'single-product-related-upsell-grid' );
+			}
+
+			return isset( $products_grid[ $device ] ) ? absint( $products_grid[ $device ] ) : $default;
+		}
+
+		/**
 		 * Add class on single product page
 		 *
 		 * @param Array $classes product classes.
@@ -968,6 +990,12 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 				$css_output = array_merge( $css_output, $compat_css_desktop );
 			}
 
+			if ( Astra_Builder_Helper::apply_flex_based_css() ) {
+				$css_output['.woocommerce[class*="rel-up-columns-"] .site-main div.product .related.products ul.products li.product, .woocommerce-page .site-main ul.products li.product'] = array(
+					'width' => '100%',
+				);
+			}
+
 			/* Parse WooCommerce General CSS from array() */
 			$css_output = astra_parse_css( $css_output );
 
@@ -1003,24 +1031,13 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 				);
 
 			} else {
+				$archive_tablet_grid = $this->get_grid_column_count( 'archive', 'tablet' );
+
 				$tablet_css_shop_page_grid = array(
-					'.woocommerce.tablet-columns-6 ul.products li.product, .woocommerce-page.tablet-columns-6 ul.products' => array(
-						'grid-template-columns' => 'repeat(6, minmax(0, 1fr))',
-					),
-					'.woocommerce.tablet-columns-5 ul.products li.product, .woocommerce-page.tablet-columns-5 ul.products' => array(
-						'grid-template-columns' => 'repeat(5, minmax(0, 1fr))',
-					),
-					'.woocommerce.tablet-columns-4 ul.products li.product, .woocommerce-page.tablet-columns-4 ul.products' => array(
-						'grid-template-columns' => 'repeat(4, minmax(0, 1fr))',
-					),
-					'.woocommerce.tablet-columns-3 ul.products li.product, .woocommerce-page.tablet-columns-3 ul.products' => array(
-						'grid-template-columns' => 'repeat(3, minmax(0, 1fr))',
-					),
-					'.woocommerce.tablet-columns-2 ul.products li.product, .woocommerce-page.tablet-columns-2 ul.products' => array(
-						'grid-template-columns' => 'repeat(2, minmax(0, 1fr))',
+					'.woocommerce.tablet-columns-' . $archive_tablet_grid . ' ul.products li.product, .woocommerce-page.tablet-columns-' . $archive_tablet_grid . ' ul.products' => array(
+						'grid-template-columns' => 'repeat(' . $archive_tablet_grid . ', minmax(0, 1fr))',
 					),
 				);
-
 			}
 			$css_output .= astra_parse_css( $tablet_css_shop_page_grid, astra_get_mobile_breakpoint( '', 1 ), astra_get_tablet_breakpoint() );
 
@@ -1050,7 +1067,7 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 						'.woocommerce.tablet-columns-2 ul.products li.product:nth-child(2n+1), .woocommerce-page.tablet-columns-2 ul.products li.product:nth-child(2n+1), .woocommerce.tablet-columns-3 ul.products li.product:nth-child(3n+1), .woocommerce-page.tablet-columns-3 ul.products li.product:nth-child(3n+1), .woocommerce.tablet-columns-4 ul.products li.product:nth-child(4n+1), .woocommerce-page.tablet-columns-4 ul.products li.product:nth-child(4n+1), .woocommerce.tablet-columns-5 ul.products li.product:nth-child(5n+1), .woocommerce-page.tablet-columns-5 ul.products li.product:nth-child(5n+1), .woocommerce.tablet-columns-6 ul.products li.product:nth-child(6n+1), .woocommerce-page.tablet-columns-6 ul.products li.product:nth-child(6n+1)' => array(
 							'clear' => 'right',
 						),
-						'.woocommerce div.product .related.products ul.products li.product:nth-child(3n)' => array(
+						'.woocommerce div.product .related.products ul.products li.product:nth-child(3n), .woocommerce-page.tablet-columns-1 .site-main ul.products li.product' => array(
 							'margin-left' => 0,
 							'clear'       => 'left',
 						),
@@ -1083,7 +1100,7 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 						'.woocommerce.tablet-columns-2 ul.products li.product:nth-child(2n+1), .woocommerce-page.tablet-columns-2 ul.products li.product:nth-child(2n+1), .woocommerce.tablet-columns-3 ul.products li.product:nth-child(3n+1), .woocommerce-page.tablet-columns-3 ul.products li.product:nth-child(3n+1), .woocommerce.tablet-columns-4 ul.products li.product:nth-child(4n+1), .woocommerce-page.tablet-columns-4 ul.products li.product:nth-child(4n+1), .woocommerce.tablet-columns-5 ul.products li.product:nth-child(5n+1), .woocommerce-page.tablet-columns-5 ul.products li.product:nth-child(5n+1), .woocommerce.tablet-columns-6 ul.products li.product:nth-child(6n+1), .woocommerce-page.tablet-columns-6 ul.products li.product:nth-child(6n+1)' => array(
 							'clear' => 'left',
 						),
-						'.woocommerce div.product .related.products ul.products li.product:nth-child(3n)' => array(
+						'.woocommerce div.product .related.products ul.products li.product:nth-child(3n), .woocommerce-page.tablet-columns-1 .site-main ul.products li.product' => array(
 							'margin-right' => 0,
 							'clear'        => 'right',
 						),
@@ -1093,7 +1110,7 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 					);
 				}
 				$css_output .= astra_parse_css( $tablet_shop_page_grid_lang_direction_css, astra_get_mobile_breakpoint( '', 1 ), astra_get_tablet_breakpoint() );
-			}   
+			}
 
 			/**
 			 * Global button CSS - Tablet = min-wdth: (tablet + 1)px
@@ -1187,6 +1204,30 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 				$css_global_button_tablet['.woocommerce ul.products, .woocommerce-page ul.products'] = array(
 					'grid-template-columns' => 'repeat(3, minmax(0, 1fr))',
 				);
+
+				if ( is_shop() || is_product_taxonomy() ) {
+
+					$archive_tablet_grid = $this->get_grid_column_count( 'archive', 'tablet' );
+
+					$css_global_button_tablet[ '.woocommerce.tablet-columns-' . $archive_tablet_grid . ' ul.products' ]                                 = array(
+						'grid-template-columns' => 'repeat(' . $archive_tablet_grid . ', minmax(0, 1fr))',
+					);
+					$css_global_button_tablet['.woocommerce[class*="tablet-columns-"] .site-main div.product .related.products ul.products li.product'] = array(
+						'width' => '100%',
+					);
+				}
+
+				if ( is_product() ) {
+
+					$single_tablet_grid = $this->get_grid_column_count( 'single', 'tablet' );
+
+					$css_global_button_tablet[ '.woocommerce.tablet-rel-up-columns-' . $single_tablet_grid . ' ul.products' ]                                  = array(
+						'grid-template-columns' => 'repeat(' . $single_tablet_grid . ', minmax(0, 1fr))',
+					);
+					$css_global_button_tablet['.woocommerce[class*="tablet-rel-up-columns-"] .site-main div.product .related.products ul.products li.product'] = array(
+						'width' => '100%',
+					);
+				}
 			}
 
 			$css_output .= astra_parse_css( $css_global_button_tablet, '', astra_get_tablet_breakpoint() );
@@ -1212,7 +1253,7 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 					'order'      => '1',
 					'margin-top' => '.5em',
 				),
-				
+
 				'.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering' => array(
 					'float'         => 'none',
 					'margin-bottom' => '2em',
@@ -1220,10 +1261,6 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 				),
 				'.woocommerce ul.products a.button, .woocommerce-page ul.products a.button' => array(
 					'padding' => '0.5em 0.75em',
-				),
-				'.woocommerce div.product .related.products ul.products li.product' => array(
-					'width' => '46.1%',
-					'width' => 'calc(50% - 10px)',
 				),
 				'.woocommerce table.cart td.actions .button, .woocommerce #content table.cart td.actions .button, .woocommerce-page table.cart td.actions .button, .woocommerce-page #content table.cart td.actions .button' => array(
 					'padding-left'  => '1em',
@@ -1249,9 +1286,9 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 					'display' => 'block',
 				),
 			);
-			
+
 			if ( ! Astra_Builder_Helper::apply_flex_based_css() ) {
-				$css_global_button_mobile['.woocommerce.mobile-columns-2 ul.products li.product, .woocommerce-page.mobile-columns-2 ul.products li.product'] = array(
+				$css_global_button_mobile['.woocommerce div.product .related.products ul.products li.product, .woocommerce.mobile-columns-2 ul.products li.product, .woocommerce-page.mobile-columns-2 ul.products li.product'] = array(
 					'width' => '46.1%',
 					'width' => 'calc(50% - 10px)',
 				);
@@ -1275,23 +1312,15 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 					'width' => '100%',
 				);
 			} else {
-				$css_global_button_mobile['.woocommerce ul.products, .woocommerce-page ul.products, .woocommerce.mobile-columns-2 ul.products, .woocommerce-page.mobile-columns-2 ul.products li.product'] = array(
-					'grid-template-columns' => 'repeat(2, minmax(0, 1fr))',
+
+				$archive_mobile_grid = $this->get_grid_column_count( 'archive', 'mobile' );
+				$single_mobile_grid  = $this->get_grid_column_count( 'single', 'mobile' );
+
+				$css_global_button_mobile[ '.woocommerce ul.products, .woocommerce-page ul.products, .woocommerce.mobile-columns-' . $archive_mobile_grid . ' ul.products, .woocommerce-page.mobile-columns-' . $archive_mobile_grid . ' ul.products' ] = array(
+					'grid-template-columns' => 'repeat(' . $archive_mobile_grid . ', minmax(0, 1fr))',
 				);
-				$css_global_button_mobile['.woocommerce.mobile-columns-6 ul.products li.product, .woocommerce-page.mobile-columns-6 ul.products'] = array(
-					'grid-template-columns' => 'repeat(6, minmax(0, 1fr))',
-				);
-				$css_global_button_mobile['.woocommerce.mobile-columns-5 ul.products li.product, .woocommerce-page.mobile-columns-5 ul.products'] = array(
-					'grid-template-columns' => 'repeat(5, minmax(0, 1fr))',
-				);
-				$css_global_button_mobile['.woocommerce.mobile-columns-4 ul.products li.product, .woocommerce-page.mobile-columns-4 ul.products'] = array(
-					'grid-template-columns' => 'repeat(4, minmax(0, 1fr))',
-				);
-				$css_global_button_mobile['.woocommerce.mobile-columns-3 ul.products li.product, .woocommerce-page.mobile-columns-3 ul.products'] = array(
-					'grid-template-columns' => 'repeat(3, minmax(0, 1fr))',
-				);
-				$css_global_button_mobile['.woocommerce.mobile-columns-1 ul.products li.product, .woocommerce-page.mobile-columns-1 ul.products'] = array(
-					'grid-template-columns' => 'repeat(1, minmax(0, 1fr))',
+				$css_global_button_mobile[ '.woocommerce.mobile-rel-up-columns-' . $single_mobile_grid . ' ul.products' ] = array(
+					'grid-template-columns' => 'repeat(' . $single_mobile_grid . ', minmax(0, 1fr))',
 				);
 			}
 
@@ -1309,7 +1338,7 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 						'margin-right' => '5px',
 						'position'     => 'initial',
 					),
-					'.woocommerce.mobile-columns-1 ul.products li.product:nth-child(n), .woocommerce-page.mobile-columns-1 ul.products li.product:nth-child(n)' => array(
+					'.woocommerce.mobile-columns-1 .site-main ul.products li.product:nth-child(n), .woocommerce-page.mobile-columns-1 .site-main ul.products li.product:nth-child(n)' => array(
 						'margin-left' => 0,
 					),
 					'.woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li' => array(
@@ -1354,7 +1383,7 @@ if ( ! class_exists( 'Astra_Woocommerce' ) ) :
 						'margin-left' => '5px',
 						'position'    => 'initial',
 					),
-					'.woocommerce.mobile-columns-1 ul.products li.product:nth-child(n), .woocommerce-page.mobile-columns-1 ul.products li.product:nth-child(n)' => array(
+					'.woocommerce.mobile-columns-1 .site-main ul.products li.product:nth-child(n), .woocommerce-page.mobile-columns-1 .site-main ul.products li.product:nth-child(n)' => array(
 						'margin-right' => 0,
 					),
 					'.woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li' => array(

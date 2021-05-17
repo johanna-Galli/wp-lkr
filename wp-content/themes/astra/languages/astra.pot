@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Astra 3.4.2\n"
+"Project-Id-Version: Astra 3.4.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/astra\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-05-05T07:39:57+00:00\n"
+"POT-Creation-Date: 2021-05-13T10:20:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: astra\n"
@@ -1376,7 +1376,7 @@ msgid "Easy Digital Downloads"
 msgstr ""
 
 #: inc/compatibility/edd/class-astra-edd.php:445
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1660
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1689
 msgid "View your shopping cart"
 msgstr ""
 
@@ -1395,7 +1395,7 @@ msgid "Easy Digital Downloads Sidebar"
 msgstr ""
 
 #: inc/compatibility/edd/class-astra-edd.php:926
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:550
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:572
 msgid "This sidebar will be used on Product archive, Cart, Checkout and My Account pages."
 msgstr ""
 
@@ -1763,15 +1763,15 @@ msgid_plural "%1$s Products"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:548
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:570
 msgid "WooCommerce Sidebar"
 msgstr ""
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:562
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:584
 msgid "Product Sidebar"
 msgstr ""
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:564
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:586
 msgid "This sidebar will be used on Single Product page."
 msgstr ""
 

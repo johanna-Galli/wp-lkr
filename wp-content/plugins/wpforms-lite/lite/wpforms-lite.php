@@ -16,19 +16,17 @@ class WPForms_Lite {
 
 		$this->includes();
 
-		add_action( 'wpforms_form_settings_notifications', array( $this, 'form_settings_notifications' ), 8, 1 );
-		add_action( 'wpforms_form_settings_confirmations', array( $this, 'form_settings_confirmations' ) );
-		add_action( 'wpforms_builder_enqueues_before', array( $this, 'builder_enqueues' ) );
-		add_action( 'wpforms_admin_page', array( $this, 'entries_page' ) );
-		add_action( 'admin_enqueue_scripts', array( $this, 'addon_page_enqueues' ) );
-		add_action( 'wpforms_admin_page', array( $this, 'addons_page' ) );
-		add_action( 'wpforms_admin_settings_after', array( $this, 'settings_cta' ), 10, 1 );
-		add_action( 'wp_ajax_wpforms_lite_settings_upgrade', array( $this, 'settings_cta_dismiss' ) );
-		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueues' ) );
+		add_action( 'wpforms_form_settings_notifications', [ $this, 'form_settings_notifications' ], 8, 1 );
+		add_action( 'wpforms_form_settings_confirmations', [ $this, 'form_settings_confirmations' ] );
+		add_action( 'wpforms_builder_enqueues_before', [ $this, 'builder_enqueues' ] );
+		add_action( 'wpforms_admin_page', [ $this, 'entries_page' ] );
+		add_action( 'wpforms_admin_settings_after', [ $this, 'settings_cta' ] );
+		add_action( 'wp_ajax_wpforms_lite_settings_upgrade', [ $this, 'settings_cta_dismiss' ] );
+		add_action( 'admin_enqueue_scripts', [ $this, 'admin_enqueues' ] );
 		add_filter( 'wpforms_helpers_templates_get_theme_template_paths', [ $this, 'add_templates' ] );
 
 		// Entries count logging for WPForms Lite.
-		add_action( 'wpforms_process_entry_save', array( $this, 'update_entry_count' ), 10, 3 );
+		add_action( 'wpforms_process_entry_save', [ $this, 'update_entry_count' ], 10, 3 );
 	}
 
 	/**
@@ -948,224 +946,26 @@ class WPForms_Lite {
 	 * Add appropriate styling to addons page.
 	 *
 	 * @since 1.0.4
+	 * @deprecated 1.6.7
 	 */
 	public function addon_page_enqueues() {
 
-		if ( ! isset( $_GET['page'] ) || 'wpforms-addons' !== $_GET['page'] ) {
-			return;
-		}
+		_deprecated_function( __CLASS__ . '::' . __METHOD__, '1.6.7 of WPForms plugin', "wpforms()->get( 'addons_page' )->enqueues()" );
 
-		// JavaScript.
-		wp_enqueue_script(
-			'jquery-matchheight',
-			WPFORMS_PLUGIN_URL . 'assets/js/jquery.matchHeight-min.js',
-			array( 'jquery' ),
-			'0.7.0',
-			false
-		);
-
-		wp_enqueue_script(
-			'listjs',
-			WPFORMS_PLUGIN_URL . 'assets/js/list.min.js',
-			array( 'jquery' ),
-			'1.5.0'
-		);
+		wpforms()->get( 'addons_page' )->enqueues();
 	}
 
 	/**
 	 * Notify user that addons are a pro feature.
 	 *
 	 * @since 1.0.0
+	 * @deprecated 1.6.7
 	 */
 	public function addons_page() {
 
-		if ( ! isset( $_GET['page'] ) || 'wpforms-addons' !== $_GET['page'] ) {
-			return;
-		}
+		_deprecated_function( __CLASS__ . '::' . __METHOD__, '1.6.7 of WPForms plugin', "wpforms()->get( 'addons_page' )->output()" );
 
-		$upgrade = wpforms_admin_upgrade_link( 'addons' );
-		$addons  = array(
-			[
-				'name' => 'ActiveCampaign',
-				'desc' => 'WPForms ActiveCampaign addon lets you add contacts to your account, record events, add notes to contacts, and more.',
-				'icon' => 'addon-icon-activecampaign.png',
-			],
-			[
-				'name' => 'Authorize.Net',
-				'desc' => 'WPForms Authorize.Net addon allows you to connect your WordPress site with Authorize.Net to easily collect payments, donations, and online orders.',
-				'icon' => 'addon-icon-authorize-net.png',
-			],
-			[
-				'name' => 'Aweber',
-				'desc' => 'WPForms AWeber addon allows you to create AWeber newsletter signup forms in WordPress, so you can grow your email list.',
-				'icon' => 'addon-icon-aweber.png',
-			],
-			[
-				'name' => 'Campaign Monitor',
-				'desc' => 'WPForms Campaign Monitor addon allows you to create Campaign Monitor newsletter signup forms in WordPress, so you can grow your email list.',
-				'icon' => 'addon-icon-campaign-monitor.png',
-			],
-			[
-				'name' => 'Conversational Forms',
-				'desc' => 'Want to improve your form completion rate? Conversational Forms addon by WPForms helps make your web forms feel more human, so you can improve your conversions. Interactive web forms made easy.',
-				'icon' => 'addon-icon-conversational-forms.png',
-			],
-			[
-				'name' => 'Custom Captcha',
-				'desc' => 'WPForms Custom Captcha addon allows you to define custom questions or use random math questions as captcha to combat spam form submissions.',
-				'icon' => 'addon-icon-captcha.png',
-			],
-			[
-				'name' => 'Drip',
-				'desc' => 'WPForms Drip addon allows you to create Drip newsletter signup forms in WordPress, so you can grow your email list.',
-				'icon' => 'addon-icon-drip.png',
-			],
-			[
-				'name' => 'Form Abandonment',
-				'desc' => 'Unlock more leads by capturing partial entries from your forms. Easily follow up with interested leads and turn them into loyal customers.',
-				'icon' => 'addon-icon-form-abandonment.png',
-			],
-			[
-				'name' => 'Form Locker',
-				'desc' => 'WPForms\' Form Locker addon allows you to lock your WordPress forms with various permissions and access control rules including passwords, members-only, specific date / time, max entry limit, and more.',
-				'icon' => 'addon-icons-locker.png',
-			],
-			[
-				'name' => 'Form Pages',
-				'desc' => 'Want to improve your form conversions? WPForms Form Pages addon allows you to create completely custom "distraction-free" form landing pages to boost conversions (without writing any code).',
-				'icon' => 'addon-icon-form-pages.png',
-			],
-			[
-				'name' => 'Form Templates Pack',
-				'desc' => 'Choose from a huge variety of pre-built templates for every niche and industry, so you can build all kinds of web forms in minutes, not hours.',
-				'icon' => 'addon-icon-form-templates-pack.png',
-			],
-			[
-				'name' => 'Geolocation',
-				'desc' => 'WPForms Geolocation addon allows you to collect and store your website visitors geolocation data along with their form submission.',
-				'icon' => 'addon-icon-geolocation.png',
-			],
-			[
-				'name' => 'GetResponse',
-				'desc' => 'WPForms GetResponse addon allows you to create GetResponse newsletter signup forms in WordPress, so you can grow your email list.',
-				'icon' => 'addon-icon-getresponse.png',
-			],
-			[
-				'name' => 'Mailchimp',
-				'desc' => 'WPForms Mailchimp addon allows you to create Mailchimp newsletter signup forms in WordPress, so you can grow your email list.',
-				'icon' => 'addon-icon-mailchimp.png',
-			],
-			[
-				'name' => 'Offline Forms',
-				'desc' => 'WPForms Offline Forms addon allows you to enable offline mode so users can save their entered data and submit when their internet connection is restored.',
-				'icon' => 'addon-icon-offline-forms.png',
-			],
-			[
-				'name' => 'PayPal Standard',
-				'desc' => 'WPForms PayPal addon allows you to connect your WordPress site with PayPal to easily collect payments, donations, and online orders.',
-				'icon' => 'addon-icon-paypal-standard.png',
-			],
-			[
-				'name' => 'Post Submissions',
-				'desc' => 'WPForms Post Submissions addon makes it easy to have user-submitted content in WordPress. This front-end post submission form allow your users to submit blog posts without logging into the admin area.',
-				'icon' => 'addon-icon-post-submissions.png',
-			],
-			[
-				'name' => 'Salesforce',
-				'desc' => 'WPForms Salesforce addon lets you add contacts to your Salesforce CRM account, so you can easily manage leads and relationships.',
-				'icon' => 'addon-icon-salesforce.png',
-			],
-			[
-				'name' => 'Sendinblue',
-				'desc' => 'WPForms Sendinblue addon helps you organize your leads, automate your marketing, and engage your subscribers.',
-				'icon' => 'addon-icon-sendinblue.png',
-			],
-			[
-				'name' => 'Signatures',
-				'desc' => 'WPForms Signatures addon makes it easy for users to sign your forms. This WordPress signatures plugin will allow your users to sign contracts and other agreements with their mouse or touch screen.',
-				'icon' => 'addon-icon-signatures.png',
-			],
-			[
-				'name' => 'Stripe',
-				'desc' => 'WPForms Stripe addon allows you to connect your WordPress site with Stripe to easily collect payments, donations, and online orders.',
-				'icon' => 'addon-icon-stripe.png',
-			],
-			[
-				'name' => 'Surveys and Polls',
-				'desc' => 'WPForms Surveys and Polls allows you easily create surveys forms and analyze the data with interactive reports.',
-				'icon' => 'addon-icons-surveys-polls.png',
-			],
-			[
-				'name' => 'User Journey',
-				'desc' => "Discover the steps your visitors take before they submit your forms. Right in the WordPress dashboard, you can easily see the content that's driving the most valuable form conversions.",
-				'icon' => 'addon-icon-user-journey.png',
-			],
-			[
-				'name' => 'User Registration',
-				'desc' => 'WPForms User Registration addon allows you to create custom WordPress user registration forms.',
-				'icon' => 'addon-icon-user-registration.png',
-			],
-			[
-				'name' => 'Webhooks',
-				'desc' => 'The Webhooks addon allows you to send form entry data to secondary tools and external services. No code required, and no need for a third party connector.',
-				'icon' => 'addon-icon-webhooks.png',
-			],
-			[
-				'name' => 'Zapier',
-				'desc' => 'WPForms Zapier addon allows you to connect your WordPress forms with over 500+ web apps. The integration possibilities here are just endless.',
-				'icon' => 'addon-icon-zapier.png',
-			],
-		)
-		?>
-
-		<div id="wpforms-admin-addons" class="wrap wpforms-admin-wrap">
-			<h1 class="page-title">
-				<?php esc_html_e( 'WPForms Addons', 'wpforms-lite' ); ?>
-				<input type="search" placeholder="<?php esc_html_e( 'Search Addons', 'wpforms-lite' ); ?>" id="wpforms-admin-addons-search">
-			</h1>
-			<div class="notice notice-info" style="display: block;">
-				<p><strong><?php esc_html_e( 'Form Addons are a PRO feature.', 'wpforms-lite' ); ?></strong></p>
-				<p><?php esc_html_e( 'Please upgrade to the PRO plan to unlock them and more awesome features.', 'wpforms-lite' ); ?></p>
-				<p>
-					<a href="<?php echo esc_url( $upgrade ); ?>" class="wpforms-btn wpforms-btn-orange wpforms-btn-md wpforms-upgrade-modal" target="_blank" rel="noopener noreferrer">
-						<?php esc_html_e( 'Upgrade Now', 'wpforms-lite' ); ?>
-					</a>
-				</p>
-			</div>
-			<div class="wpforms-admin-content">
-				<div id="wpforms-admin-addons-list">
-					<div class="list">
-						<?php foreach ( $addons as $addon ) : ?>
-						<div class="addon-container">
-							<div class="addon-item">
-								<div class="details wpforms-clear" style="">
-									<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/' . $addon['icon'] ); ?>">
-									<h5 class="addon-name">
-										<?php
-										printf( /* translators: %s - addon name. */
-											esc_html__( '%s Addon', 'wpforms-lite' ),
-											$addon['name']
-										);
-										?>
-									</h5>
-									<p class="addon-desc"><?php echo $addon['desc']; ?></p>
-								</div>
-								<div class="actions wpforms-clear">
-									<div class="upgrade-button">
-										<a href="<?php echo esc_url( $upgrade ); ?>" target="_blank" rel="noopener noreferrer" class="wpforms-btn wpforms-btn-orange wpforms-upgrade-modal">
-											<?php esc_html_e( 'Upgrade Now', 'wpforms-lite' ); ?>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<?php endforeach; ?>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<?php
+		wpforms()->get( 'addons_page' )->output();
 	}
 
 	/**
