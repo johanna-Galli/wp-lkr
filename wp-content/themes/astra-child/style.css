@@ -146,48 +146,31 @@ Updated: 2021-05-03 14:07:21
     height: auto !important;
 }
 
+
+
+
+
+
+
+
+
+
+
 /********************************************************************/
 /*page d'evenement*/
 /********************************************************************/
 
-/*evenement unique*/
-.ast-article-single {
-    background-color: #101010 !important;
-}
-/*couleur du titre*/
-.tribe-events-pg-template h1 {
-    color: #E4CB86 !important;
-}
-/*couleur des liens
-.ast-article-single a {
-    color: #E4CB86 !important;
-}*/
-/*couleur des titres*/
-.tribe-events-pg-template h2 {
-    color: rgb(255, 255, 255) !important;
-}
-/*couleur des labels*/
-.tribe-events-pg-template dt {
-    color: rgb(255, 255, 255) !important;
-}
-/*couleur des infos*/
-.tribe-events-pg-template dd {
-    color: rgb(172, 172, 172) !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*probleme page trop haute avec navbar fixed*/
 .mec-container {
     margin-top: 100px;
+}
+
+
+.eael-timeline-post-inner {
+    background: linear-gradient(45deg, #3f3f46 0%, #302a1c 100%) repeat scroll 0 0 rgba(0,0,0,0) !important;
+}
+
+
+.color-facebook {
+    color: blue;
 }
