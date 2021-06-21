@@ -40,6 +40,21 @@ get_header(); ?>
                 d'accueil</a> du site ou d'effectuer une nouvelle recherche :</p>
     </div>
 
+    <?php
+    $nbimages = 4;
+
+    $nomimages[1] = "image1.jpg";
+    $nomimages[2] = "image2.jpg";
+    $nomimages[3] = "image3.jpg";
+    $nomimages[4] = "image4.jpg";
+
+    srand((float)microtime() * 1000000);
+    $affimage = rand(1, $nbimages);
+    ?>
+
+    <img src="images/<? echo $nomimages[$affimage]; ?>" border=0 width=50 height=50 alt="Image aléatoire">
+
+
 
     <?php astra_primary_content_bottom(); ?>
 
