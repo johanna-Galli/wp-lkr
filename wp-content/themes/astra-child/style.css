@@ -40,6 +40,13 @@ Updated: 2021-05-03 14:07:21
     }
 }
 
+
+
+.MarginTop404 {
+    margin-top: 72px;
+    text-align: center;
+}
+
 /********************************************************************/
 /*page accueil */
 /********************************************************************/
@@ -173,4 +180,9 @@ Updated: 2021-05-03 14:07:21
 
 .color-facebook {
     color: blue;
+}
+
+
+.wpforms-submit-spinner {
+    width: 30px !important;
 }
